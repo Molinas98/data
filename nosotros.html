@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Datasystems - Como vemos el mundo</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--CSS-->
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="./assets/images/logo.ico">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/magnific-popup.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-xl index">
+			<div class="container">
+				<a class="navbar-brand logo me-0" href="index.html">
+					<img src="./assets/images/empresa-2.png" alt="logo empresa">
+				</a>
+				<a class="nav-link me-0 op-menu  d-flex d-xl-none" data-toggle="collapse" data-target="#m-menu" aria-expanded="false">
+					<img class="icono-nav" src="./assets/images/opciones.svg">
+				</a>
+				<div class="justify-content-center d-none d-xl-flex" tabindex="-1" id="navbarMenu">
+					<ul class="navbar-nav ml-auto justify-content-start justify-content-lg-between align-items-center w-100">
+						<div class="d-flex  flex-column flex-lg-row  align-items-center">
+							<a class="nav-link me-0" href="/">
+								<li class="nav-item">Inicio</li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-soluciones" aria-expanded="false">
+								<li class="nav-item">Soluciones<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-nosotros" aria-expanded="false">
+								<li class="nav-item">Sobre Nosotros<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-recursos" aria-expanded="false">
+								<li class="nav-item">Recursos <img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a href="contacto.html">
+								<div class="ss">
+									<div class="borde-svg">En Contacto</div>
+								</div>
+							</a>
+							<a href="/" class="ms-1">
+								<div class="acceso">
+									<div class="borde-svg btn-acceso">Portal del cliente</div>
+								</div>
+							</a>
+							<!-- <a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-spain.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-english.svg">
+							</a> -->
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/x-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/instagran-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/linkedin.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/f-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/youtube-gris.png">
+							</a>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="sub-menu collapse" id="m-soluciones">
+			<div class="links">
+				<a class="dropdown-item" href="soluciones.html#sol-1">Impresión y escaneo</a>
+				<a class="dropdown-item" href="soluciones.html#sol-2">Gestión Documental y Digitalización</a>
+				<a class="dropdown-item" href="soluciones.html#sol-3">Desarrollo de software</a>
+				<a class="dropdown-item" href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a>
+				<a class="dropdown-item" href="soluciones.html#sol-5">Integración, Automatización y Nube</a>
+				<a class="dropdown-item" href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a>
+				<a class="dropdown-item" href="soluciones.html#sol-7">Trabajo Colaborativo</a>
+				<a class="dropdown-item mb-3" href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-nosotros">
+			<div class="links">
+				<a class="dropdown-item" href="empresa.html">La empresa</a>
+				<a class="dropdown-item" href="nosotros.html">Comó vemos el mundo</a>
+				<!-- <a class="dropdown-item" href="politica.html">Politicas de calidad</a> -->
+				<a class="dropdown-item" href="historia.html">Historia</a>
+				<a class="dropdown-item" href="adn.html">Adn</a>
+				<a class="dropdown-item" href="inversionistas.html">Inversionistas</a>
+				<a class="dropdown-item mb-3" href="alianzas.html">Alianzas</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-recursos">
+			<div class="links">
+				<a class="dropdown-item" href="recursos.html">Recursos disponibles</a>
+				<a class="dropdown-item" href="eventos.html">Eventos y Noticias</a>
+				<a class="dropdown-item mb-3" href="apartado_tecnico.html">Apartado Técnico</a>
+			</div>
+		</div>
+		<div class="sub-menu collapse w-100" id="m-menu">
+				<ul class="nav flex-column">
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Soluciones</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Cómo vemos el mundo</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="empresa.html">La empresa</a></li>
+							<li class="op-submenu"><a href="nosotros.html">Comó vemos el mundo</a></li>
+							<!-- <li class="op-submenu"><a href="politica.html">Politicas de calidad</a></li> -->
+							<li class="op-submenu"><a href="historia.html">Historia</a></li>
+							<li class="op-submenu"><a href="adn.html">Adn</a></li>
+							<li class="op-submenu"><a href="inversionistas.html">Inversionistas</a></li>
+							<li class="op-submenu"><a href="alianzas.html">Alianzas</a></li>
+						</ul>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Recursos</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="recursos.html">Recursos disponibles</a></li>
+							<li class="op-submenu"><a href="eventos.html">Eventos y Noticias</a></li>
+							<li class="op-submenu"><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<a href="contacto.html" class="m-responsive text-black">En Contacto</a>
+					</li>
+					<li class="nav-item-responsive pb-3">
+						<a href="/" class="m-responsive text-black">Portal del Cliente</a>
+					</li>
+				</ul>
+		</div>
+	</header>
+	<main>
+		<section class="section-banner position-relative">
+			<div class="imagenDeFondo-3 fondo-4 bottom"></div>
+			<div class="d-flex justify-content-center align-items-center">
+				<h1 class="efecto-sombra-2 text-center">Como vemos el mundo</h1>
+			</div>
+		</section>
+		<section class="section-arquitectos position-relative fondopixel">
+			<div class="container">
+				<div class="row">
+					<div class="offset-2 col-lg-4 imagen mb-4" data-aos="fade-right" data-aos-delay="100">
+						<img class="img-fluid" src="./assets/images/empresa.webp">
+					</div>
+					<div class="col-lg-4 info mb-3 mb-md-0" data-aos="fade-left" data-aos-delay="100">
+						<h3 class="text-orange fw-500 mb-3">Somos arquitectos<br>
+						<span>de Soluciones Tecnológicas</span><br>
+							para empresas</h3>
+						<p class="text-dark">Somos profesionales responsables de diseñar y estructurar soluciones
+							tecnológicas a problemas o necesidades específicas de las organizaciones.</p>
+						<p class="text-dark">Analizamos los requisitos de cada empresa e institución, evaluamos las
+							diferentes opciones tecnológicas disponibles e ideamos una arquitectura
+							óptima que ayude a los clientes a alcanzar sus metas y superar los desafíos
+							de su negocio, acompañando la implementación e integración exitosa de los
+							diferentes elementos tecnológicos.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-lideres">
+			<div class="container">
+				<div class="row encabezado">
+					<div class="col-sm-6 text-center centrar-x">
+						<h2 class="text-start">Nuestros<br class="d-none d-sm-block"> Líderes</h2>
+					</div>
+					<div class="col-sm-6 centrar-x justify-content-sm-start">
+						<p>Conoce a los visionarios detrás de nuestra empresa, líderes apasionados que
+							creen en el poder de la tecnología para transformar negocios y vidas.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="carrusel_lideres">
+						<div class="col-6 lider">
+							<div class="mx-3">
+								<div class="img-lider">
+									<img class="img-fluid" src="./assets/images/nosotros/lider-fondo.webp">
+									<img class="img-fluid" src="./assets/images/nosotros/lider-1.webp">
+									<img src="./assets/images/nosotros/lider-front.png">
+								</div>
+								<div class="info-lider">
+									<p class="nombre">José Flecha</p>
+									<p class="cargo">Executive Director</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 lider">
+							<div class="mx-3">
+								<div class="img-lider">
+									<img class="img-fluid" src="./assets/images/nosotros/lider-fondo.webp">
+									<img class="img-fluid" src="./assets/images/nosotros/lider-2.webp">
+									<img src="./assets/images/nosotros/lider-front.png">
+								</div>
+								<div class="info-lider">
+									<p class="nombre">Sergio Perez</p>
+									<p class="cargo">Executive Director</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div ></div>
+				<img class="lider-decorado" src="./assets/images/nosotros/deco-lideres.png">
+			</div>
+		</section>
+		<section class="section-reconocimientos fondopixel">
+			<div class="container">
+				<h2>Reconocimientos</h2>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/01-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/02-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/03-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/04-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/05-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/07-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/08-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/09-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/10-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/06-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/11-1.png">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/nosotros/reconocimientos/12-1.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-nuestra-gente position-relative">
+			<div class="container">
+				<div class="row encabezado">
+					<div class="col-sm-6 text-center centrar-x">
+						<h2 class="text-start">Nuestra<br class="d-none d-sm-block"> Gente</h2>
+					</div>
+					<div class="col-sm-6 centrar-x justify-content-sm-start">
+						<p>No es solo un grupo de empleados; son los arquitectos de nuestro éxito.
+							Cada miembro aporta un conjunto único de habilidades, pasiones e
+							historias que se entrelazan para crear un espacio de innovación y excelencia.</p>
+					</div>
+				</div>
+			</div>
+			<img class="lider-decorado" src="./assets/images/nosotros/deco-lideres.png">
+				<div class="row position-relative">
+					<div class="linea-blanca-1"></div>
+					<div class="carrusel_empleados">
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/01.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/02.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/03.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/04.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/05.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/06.webp">
+							</div>
+						</div>
+					</div>
+					<div class="capa"></div>
+				</div>
+				<div class="row position-relative">
+					<div class="linea-blanca-2"></div>
+					<div class="carrusel_empleados_2" dir="rtl">
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/07.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/08.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/09.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/10.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/11.webp">
+							</div>
+						</div>
+						<div class="cliente">
+							<div class="mx-3">
+								<img class="img-fluid" src="./assets/images/nosotros/empleados/12.webp">
+							</div>
+						</div>
+					</div>
+					<div class="capa"></div>
+				</div>
+		</section>
+		<section class="section-mision">
+			<div class="position-relative">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 info" data-aos="fade-up" data-aos-delay="100" data-aos-offset="-600">
+							<h2 class="efecto-sombra-3">Misión</h2>
+							<p>Brindamos soluciones tecnológicas integrales e innovadoras, que impactan
+								positivamente en las empresas e instituciones, sus clientes y usuarios.</p>
+						</div>
+						<div class="offset-lg-6 col-sm-6 d-flex align-items-end">
+							<img class="img-fluid" src="./assets/images/mision.webp">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-vision">
+			<div class="position-relative">
+				<img class="imagen-fondo w-100" src="./assets/images/banner-vision.webp">
+				<div class="container">
+					<div class="row">
+						<div class="offset-2 offset-sm-6 col-9 col-sm-6">
+							<h2 class="efecto-sombra-4" data-aos="fade-left" data-aos-delay="100" data-aos-offset="-800">Visión</h2>
+							<p class="mt-5" data-aos="fade-left" data-aos-delay="100" data-aos-offset="-800">Maximizar los beneficios de nuestros clientes, equipo humano, accionistas
+								y socios de negocios, con la expansión y sinergia de nuestras operaciones
+								comerciales, posicionándonos como referente en el mercado que actuamos.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-valores">
+			<div class="position-relative">
+				<div class="contenedor-caras">
+					<div class="fondo-pixelado">
+						<img class="imagenDeFondo-3" src="./assets/images/fondo-pruebas.png">
+						<img class="cara-1" src="./assets/images/cara-1.png">
+						<img class="cara-2" src="./assets/images/cara-2.png">
+						<img class="cara-3" src="./assets/images/cara-3.png">
+						<img class="cara-4" src="./assets/images/cara-4.png">
+						<img class="cara-5" src="./assets/images/cara-5.png">
+						<img class="cara-6" src="./assets/images/cara-6.png">
+						<img class="cara-7" src="./assets/images/cara-7.png">
+						<img class="cara-8" src="./assets/images/cara-8.png">
+						<img class="cara-9" src="./assets/images/cara-9.png">
+					</div>
+				</div>
+				<!-- <div class="container">
+					<div class="row w-100">
+						<div class="col-6">
+							<div class="info" data-aos="fade-right" data-aos-delay="100" data-aos-offset="-700">
+								<h2 class="efecto-sombra-3">Valores</h2>
+								<p>Creemos en la comunicación abierta y franca como pilar fundamental
+									de nuestras relaciones laborales y comerciales, en el respeto y
+									solidaridad hacia las personas con y para las que trabajamos, y
+									en la innovación como motor principal para adaptarnos a los
+									cambios constantes.</p>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="contenedor-valor">
+								<h3>RESPETO</h3>
+								<p>TENER CONSIDERACIÓN POR EL OTRO</p>
+								<ul class="list-unstyled text-start">
+									<li class="op-submenu mb-2">Nos saludamos siempre.</li>
+									<li class="op-submenu mb-2">Dimos por favor y gracias.</li>
+									<li class="op-submenu mb-2">Nos tratamos con respeto y equidad, independientemente de las situaciones.</li>
+									<li class="op-submenu mb-2">Somos conscientes y reconocemos el impacto de nuestro comportamiento sobre los demás.</li>
+									<li class="op-submenu mb-2">Nos mostramos dispuesto a recibir y agradecemos el feedback.</li>
+									<li class="op-submenu mb-2">Reconocemos las contribuciones de los demás.</li>
+									<li class="op-submenu mb-2">Respetamos los compromisos y acuerdos.</li>
+									<li class="op-submenu">Estamos dispuestos a encarar la falta de respeto.</li>
+								</ul>
+							</div>
+						</div> 
+					</div>
+				</div> -->
+			</div>
+		</section>
+		<section class="section-valores-2">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center efecto-sombra-3">Valores</h2>
+					<div class="col-sm-6 col-lg-3">
+						<a class="galeria" href="./assets/images/valores/011.webp"><img class="img-fluid" src="./assets/images/valores/01.webp"></a>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<a class="galeria" href="./assets/images/valores/012.webp"><img class="img-fluid" src="./assets/images/valores/02.webp"></a>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<a class="galeria" href="./assets/images/valores/013.webp"><img class="img-fluid" src="./assets/images/valores/03.webp"></a>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<a class="galeria" href="./assets/images/valores/014.webp"><img class="img-fluid" src="./assets/images/valores/04.webp"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-saeca section-compromiso">
+			<div class="contenedor-imagen position-relative">
+				<img class="imagen-fondo w-100" src="./assets/images/banner-compromiso.png">
+			</div>
+			<div class="container text-center">
+				<h2 class="mb-4" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-1200">Nuestro Compromiso</h2>
+				<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+					<div class="saeca-info" data-aos="fade-right" data-aos-delay="100" data-aos-offset="-1200">
+						<img class="img-fluid" src="./assets/images/saeca-1.png">
+						<div>
+							<p>Ofrecer productos y servicios innovadores, adecuados a la necesidad
+								de los clientes, garantizando la calidad de los mismos.</p>
+						</div>
+					</div>
+					<div class="saeca-info" data-aos="fade-up" data-aos-delay="100" data-aos-offset="-1200">
+						<img class="img-fluid" src="./assets/images/saeca-2.png">
+						<div>
+							<p>Brindar una excelente atención y lograr la satisfacción de nuestros clientes.</p>
+						</div>
+					</div>
+					<div class="saeca-info" data-aos="fade-left" data-aos-delay="100" data-aos-offset="-1200">
+						<img class="img-fluid" src="./assets/images/saeca-3.png">
+						<div>
+							<p>Cumplir con los requisitos aplicables y elegir el camino de la calidad como método para asegurar la continuidad de la empresa en el tiempo.</p>
+						</div>
+					</div>
+				</div>
+				<div class="implicancia" data-aos="fade-up" data-aos-delay="100" data-aos-offset="-1200">
+					<p>Para garantizar el cumplimiento de esta política, la empresa ha decidido implementar y mejorar continuamente un Sistema de Calidad diseñado en el cumplimiento de los requisitos de la Norma de Calidad ISO 9001.</p>
+				</div>
+			</div>
+		</section>
+		<section class="section-propuesta">
+			<div class="container d-flex flex-column align-items-center text-center">
+				<h2 class="text-orange" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-1200">Nuestra Propuesta</h2>
+				<p data-aos="fade-up" data-aos-delay="200" data-aos-offset="-1000">Brindamos soluciones tecnológicas integrales a
+					empresas que, impulsadas por la innovación, buscan eficiencia de costos y seguridad en la
+					disponibilidad de sus operaciones, permitiéndoles la sostenibilidad de sus negocios a través de la
+					rentabilidad de sus actividades y satisfacción de sus clientes.</p>
+			</div>
+		</section>
+		<section class="section-historia">
+			<div class="d-flex flex-column flex-md-row">
+				<div class="position-relative w-100">
+					<img class="imagen-fondo w-100" src="./assets/images/historia.webp">
+					<a href="historia.html" class="btn-base">CONOCÉ HISTORIA</a>
+				</div>
+				<div class="position-relative w-100">
+					<img class="imagen-fondo w-100" src="./assets/images/adn-2.webp">
+					<a href="adn.html" class="btn-base">CONOCÉ NUESTRO ADN</a>
+				</div>
+			</div>
+		</section>
+		<section class="section-datos">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-xl-6" data-aos="fade-up" data-aos-delay="100" data-aos-offset="-1500">
+						<div class="espacio">
+							<h2>Datos Resguardados</h2>
+							<p> Entendemos que cada bit de información es crucial para su negocio, y
+								por eso nos dedicamos a ofrecer soluciones personalizadas que se
+								ajustan a sus necesidades específicas. Confíe en nosotros para hacer
+								de la seguridad de sus datos una menos de sus preocupaciones,
+								permitiéndole enfocarse en lo que realmente importa: el crecimiento
+								y éxito de su empresa..</p>
+							<a href="contacto.html" class="btn-base">HABLÁ CON UN EXPERTO</a>
+						</div>
+					</div>
+					<div class="col-lg-5 col-xl-6 text-end text-lg-center position-relative">
+						<img class="img-fluid" src="./assets/images/nosotros/datos.webp">
+						<img class="efecto-fondo d-none d-xl-flex" src="./assets/images/pixeles-fondo.webp">
+					</div>
+				</div>
+				<div class="row mt-5 pt-5">
+					<div class="col-lg-6">
+						<div class="ctas mx-xl-3">
+							<img class="img-fondo" src="./assets/images/nosotros/fondo-con-sombra.png">
+							<div class="contendio-cta">
+								<img src="./assets/images/nosotros/icon-parlante.svg">
+								<p class="p-max">Mantenéte actualizado de nuestras noticias.</p>
+								<a href="eventos.html" class="btn-base-2">Nuestras Noticias</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="ctas mx-xl-3">
+							<img class="img-fondo" src="./assets/images/nosotros/fondo-con-sombra.png">
+							<div class="contendio-cta">
+								<img src="./assets/images/nosotros/icon-phone.svg">
+								<p class="p-max">Accedé a nuestro portal de clientes corporativos.</p>
+								<a class="btn-base-2">Acceder al Portal</a>
+							</div>
+						</div>
+					</div>
+					<div class="offset-lg-2 col-lg-8">
+						<div class="ctas mx-xl-3">
+							<img class="img-fondo" src="./assets/images/nosotros/fondo-con-sombra.png">
+							<div class="contendio-cta">
+								<p>Suscribite a nuestro Newsletter y recibí las últimas novedades de la empresa.</p>
+								<form class="subscripcion row mb-4" action="#" method="post">
+									<input class="mb-4" id="email" name="email"  type="email" placeholder="Tu E-mail" required/>
+									<div class="position-relative">
+										<img class="enviar-imagen" src="./assets/images/nosotros/avion-2.svg">
+										<button type="submit" class="btn-base-2">Suscribirse</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-contacto position-relative">
+			<div class="imagenDeFondo fondo-2 top"></div>
+			<div class="container">
+				<div class="banner-info">
+					<h1 class="mb-5">Soluciones <span class="text-orange">tecnológicas integrales</span> e innovadoras</h1>
+					<p class="mb-4">Confíe en profesionales con experiencia y conocimientos especializados para llevar a cabo proyectos tecnológicos en su empresa. Asegurará su inversión, resultados óptimos, una implementación eficaz y una solución a la medida de sus necesidades.</p>
+					<a href="contacto.html" class="btn-base text-center ft-12">HABLÁ CON UNO<br>DE NUESTROS EXPERTOS</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="pie-de-pagina">
+		<div class="footer">
+			<div class="container">
+				<div class="d-flex flex-column flex-lg-row align-items-center pt-5">
+					<div class="redes">
+						<img src="./assets/images/logo-footer.png">
+						<ul class="ps-0 pt-4">
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/mapa.svg">
+									<span class="ps-3">Av. Perú 1005</span>
+								</a>
+                            </li>
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/tel.svg">
+									<span class="ps-3">+595 21 213 347</span>
+								</a>
+                            </li>
+							<li>
+								<a href="#" target="_blank" class="d-flex">
+									<img src="./assets/images/horario.svg">
+									<div class="d-flex flex-column ps-3">
+										<span>Horario de atención:</span>
+										<span>Lun a Vie de 08 a 18hs</span>
+										<span>Sáb de 09 a 12hs</span>
+									</div>
+								</a>
+                            </li>
+                        </ul>
+					</div>
+					<div class="d-flex flex-colum justify-content-end align-content-center w-100">
+						<div class="row d-flex justify-content-center">
+							<div class="offset-xl-1 col-lg-6">
+								<h5 class="text-center">Soluciones</h5>
+								<div class="row">
+									<div class="col">
+											<ul class="list-unstyled">
+												<li><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+												<li><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+												<li><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+												<li><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+											</ul>
+									</div>
+									<div class="col">
+										<ul class="list-unstyled">
+											<li><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+											<li><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+											<li><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+											<li><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h5>Recursos</h5>
+								<ul class="list-unstyled">
+									<li><a href="recursos.html">Recursos disponibles</a></li>
+									<li><a href="eventos.html">Eventos y Noticias</a></li>
+									<li><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+								</ul>
+							</div>
+							<div class="col">
+								<h5>Sobre Nosotros</h5>
+								<ul class="list-unstyled">
+									<li><a href="empresa.html">La Empresa</a></li>
+									<!-- <li><a href="politica.html">Políticas de Calidad</a></li> -->
+									<li><a href="nosotros.html">Comó vemos el mundo</a></li>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="adn.html">Adn</a></li>
+									<li><a href="inversionistas.html">Inversionistas</a></li>
+									<li><a href="alianzas.html">Alianzas</a></li>
+								</ul>
+							</div>
+						</div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom">
+			<div class="container d-none d-sm-flex">
+				<p>Datasystems SAECA 2024</p>
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<a href="https://twitter.com/datasystemspy" target="_blank"><img src="./assets/images/x-footer.png"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/datasystemspy/" target="_blank"><img src="./assets/images/instagram.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mt-4" href="https://www.linkedin.com/company/datasystemspy" target="_blank"><img src="./assets/images/linkedin.png"></a>
+				</li>
+				<li class="list-inline-item me-4">
+					<a href="https://www.youtube.com/@datasystemspy" target="_blank"><img src="./assets/images/Youtube.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/iso.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/whatsapp.svg"></a>
+				</li>
+			</ul>
+			<div class="container d-flex d-sm-none text-center">
+				<p class="w-100">Datasystems SAECA 2024</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+		integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

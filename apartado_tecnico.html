@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Datasystems - Productos</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--CSS-->
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="./assets/images/logo.ico">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/magnific-popup.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-xl index">
+			<div class="container">
+				<a class="navbar-brand logo me-0" href="index.html">
+					<img src="./assets/images/empresa-2.png" alt="logo empresa">
+				</a>
+				<a class="nav-link me-0 op-menu  d-flex d-xl-none" data-toggle="collapse" data-target="#m-menu" aria-expanded="false">
+					<img class="icono-nav" src="./assets/images/opciones.svg">
+				</a>
+				<div class="justify-content-center d-none d-xl-flex" tabindex="-1" id="navbarMenu">
+					<ul class="navbar-nav ml-auto justify-content-start justify-content-lg-between align-items-center w-100">
+						<div class="d-flex  flex-column flex-lg-row  align-items-center">
+							<a class="nav-link me-0" href="/">
+								<li class="nav-item">Inicio</li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-soluciones" aria-expanded="false">
+								<li class="nav-item">Soluciones<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-nosotros" aria-expanded="false">
+								<li class="nav-item">Sobre Nosotros<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-recursos" aria-expanded="false">
+								<li class="nav-item">Recursos <img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a href="contacto.html">
+								<div class="ss">
+									<div class="borde-svg">En Contacto</div>
+								</div>
+							</a>
+							<a href="/" class="ms-1">
+								<div class="acceso">
+									<div class="borde-svg btn-acceso">Portal del cliente</div>
+								</div>
+							</a>
+							<!-- <a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-spain.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-english.svg">
+							</a> -->
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/x-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/instagran-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/linkedin.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/f-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/youtube-gris.png">
+							</a>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="sub-menu collapse" id="m-soluciones">
+			<div class="links">
+				<a class="dropdown-item" href="soluciones.html#sol-1">Impresión y escaneo</a>
+				<a class="dropdown-item" href="soluciones.html#sol-2">Gestión Documental y Digitalización</a>
+				<a class="dropdown-item" href="soluciones.html#sol-3">Desarrollo de software</a>
+				<a class="dropdown-item" href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a>
+				<a class="dropdown-item" href="soluciones.html#sol-5">Integración, Automatización y Nube</a>
+				<a class="dropdown-item" href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a>
+				<a class="dropdown-item" href="soluciones.html#sol-7">Trabajo Colaborativo</a>
+				<a class="dropdown-item mb-3" href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-nosotros">
+			<div class="links">
+				<a class="dropdown-item" href="empresa.html">La empresa</a>
+				<a class="dropdown-item" href="nosotros.html">Comó vemos el mundo</a>
+				<!-- <a class="dropdown-item" href="politica.html">Politicas de calidad</a> -->
+				<a class="dropdown-item" href="historia.html">Historia</a>
+				<a class="dropdown-item" href="adn.html">Adn</a>
+				<a class="dropdown-item" href="inversionistas.html">Inversionistas</a>
+				<a class="dropdown-item mb-3" href="alianzas.html">Alianzas</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-recursos">
+			<div class="links">
+				<a class="dropdown-item" href="recursos.html">Recursos disponibles</a>
+				<a class="dropdown-item" href="eventos.html">Eventos y Noticias</a>
+				<a class="dropdown-item mb-3" href="apartado_tecnico.html">Apartado Técnico</a>
+			</div>
+		</div>
+		<div class="sub-menu collapse w-100" id="m-menu">
+				<ul class="nav flex-column">
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Soluciones</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Cómo vemos el mundo</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="empresa.html">La empresa</a></li>
+							<li class="op-submenu"><a href="nosotros.html">Comó vemos el mundo</a></li>
+							<!-- <li class="op-submenu"><a href="politica.html">Politicas de calidad</a></li> -->
+							<li class="op-submenu"><a href="historia.html">Historia</a></li>
+							<li class="op-submenu"><a href="adn.html">Adn</a></li>
+							<li class="op-submenu"><a href="inversionistas.html">Inversionistas</a></li>
+							<li class="op-submenu"><a href="alianzas.html">Alianzas</a></li>
+						</ul>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Recursos</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="recursos.html">Recursos disponibles</a></li>
+							<li class="op-submenu"><a href="eventos.html">Eventos y Noticias</a></li>
+							<li class="op-submenu"><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<a href="contacto.html" class="m-responsive text-black">En Contacto</a>
+					</li>
+					<li class="nav-item-responsive pb-3">
+						<a href="/" class="m-responsive text-black">Portal del Cliente</a>
+					</li>
+				</ul>
+		</div>
+	</header>
+	<main>
+		<div class="modales-productos">
+			<div class="modal-producto collapse" id="p1">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s1.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p1">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Impresión y Escaneo</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="p2">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s2.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p2">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Gestión Documental y Digitalización</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="p3">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s3.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p3">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Desarrollo de software</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="p4">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s4.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p4">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Almacenamiento y distribución de la información</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="p5">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s5.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p5">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Integración, Automatización y Nube</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="p6">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s6.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p6">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Mapeo, Reconocimiento y Análisis Geoespacial</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="p7">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s7.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p7">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Trabajo colaborativo</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="p8">
+				<div class="efecto-producto">
+					<img class="img-fluid" src="./assets/images/s8.webp">
+					<img class="fondo-producto" src="./assets/images/productos/pixel_producto.png">
+				</div>
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="p8">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center">Desarrollo de experiencia virtual</h2>
+					<div class="productos-imagenes">
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan.png">
+							<figcaption class="fw-700">Datascan</figcaption>
+						</figure>
+						<figure class="c-producto">
+							<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud.png">
+							<figcaption class="fw-700">Datascan Cloud</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="section-banner position-relative index">
+			<div class="imagenDeFondo fondo-9 bottom"></div>
+			<div class="container position-relative p-producto">
+				<div class="banner-info">
+					<h1 class="titulo-productgo"><span class="text-white">Apartado</span> <span class="text-orange">Técnico</span></h1>
+				</div>
+			</div>
+		</section>
+		<section class="section-menus">
+			<div class="container">
+				<ul class="menu-info">
+					<li data-div="info-descripcion">Servicios y Consultorías</li>
+					<li data-div="info-especificaciones">Soluciones de Software</li>
+				</ul>
+				<div class="cuerpo-info row">
+					<div class="col-12">
+						<div class="tarjeta row" id="info-descripcion">
+							<p class="sub-titulos">Somos expertos en soluciones de software libre y código abierto en ambientes de misión crítica</p>
+							<h4>Infraestructura</h4>
+							<ul class="text-start">
+								<li class="op-submenu mb-2">Evaluación, diagnóstico y análisis de arquitectura</li>
+								<li class="op-submenu mb-2">Instalación, configuración y tunning de SO Red Hat Linux Enteprise.</li>
+								<li class="op-submenu mb-2">Diseño e implementación de soluciones de Virtualización con Red Hat Enterprise Virtualization.</li>
+								<li class="op-submenu mb-2">Análisis e implementación de nubes Privadas, Publicas e Hibridas con Red Hat Open Stack y Red Hat Open Shift.</li>
+								<li class="op-submenu mb-2">Análisis y diseño de arquitectura de containers.</li>
+								<li class="op-submenu">Soporte remoto y on site sobre sistemas Linux Red Hat.</li>
+							</ul>
+							<h4>Middleware</h4>
+							<ul class="text-start">
+								<li class="op-submenu mb-2">Instalación y Tunning de servidores JBoss EAP, Tomcat y Apache Web Server (JBoss EAP, JBoss EWS, Apache) Soporte (instalación, tunning, actualización, migración, configuración y resolución de incidencias) de toda la gama JBoss (JBoss BPMS, JBoss BRMS, JBoss Fuse, JBoss Fuse SW, JBoss Data Virtualization, JBoss EWS).</li>
+								<li class="op-submenu mb-2">Configuración de alta disponibilidad de aplicaciones JAVA EE (JBoss).</li>
+								<li class="op-submenu mb-2">Desarrollo de soluciones innovadoras con tecnologías JAVA EE y productos JBoss (JBoss).</li>
+								<li class="op-submenu">Consultoría sobre motores de procesos y reglas de negocios (JBoss BPMS y JBoss BRMS).</li>
+							</ul>
+							<h4>Consultorías varias</h4>
+							<ul class="text-start">
+								<li class="op-submenu mb-2">Balanceo de aplicaciones web con Apache.</li>
+								<li class="op-submenu mb-2">Pruebas de estrés sobre servidores de aplicaciones (Servidores Varios, no asociado a ningún producto).</li>
+								<li class="op-submenu mb-2">Automatización de instalaciones y configuraciones con Puppet (Puppet).</li>
+								<li class="op-submenu mb-2">Generación de tableros de control mediante herramientas gerenciales (Flowwe).</li>
+								<li class="op-submenu mb-2">Inteligencia de Negocios (BI).</li>
+								<li class="op-submenu">Consultoría sobre Business Intelligence, ETL, Creación de Cubos y Dashoards (Pentaho).</li>
+							</ul>
+						</div>
+						<div class="tarjeta row" id="info-especificaciones">
+							<p class="sub-titulos">Somos expertos en la Implementación de Soluciones de Software Libre y Código Abierto en ambientes de Misión Crítica, otorgándole al cliente soluciones robustas y fiables a un menor costo y con mayor flexibilidad, en comparación con alternativas propietarias</p>
+							<p>Contamos con un plantel de técnicos y arquitectos certificados capaces de complementar suscripciones ofreciéndoles servicios de instalación, configuración y mantenimiento de los productos.</p>
+							<p>Datasystems dispone de un principal equipo de profesionales certificados en el país, además de contar con una amplia experiencia y seniority en la implementación de soluciones de arquitectura incluyendo balanceadores de carga, alta disponibilidad de aplicaciones que puedan sostener una alta concurrencia de usuarios, aparte del armado de flujos de desarrollo para un rápido time to market de las aplicaciones para los clientes.</p>
+							<h4>DESARROLLAMOS HERRAMIENTAS & SKILLS</h4>
+							<p>Que utilizamos para encontrar los cuellos de botella en tu estructura y proponerte soluciones concretas y realizables</p>
+							<h4>SOFTWARE FACTORY</h4>
+							<h5>¿Qué hacemos?</h5>
+							<p>Transformación digital de empresas, optimización de procesos, sistemas a medida.</p>
+							<h4>DESARROLLO DE SOFTWARE Y CONSULTORIA</h4>
+							<ul class="text-start">
+								<li class="op-submenu mb-2">WEB APPS</li>
+								<li class="op-submenu mb-2">MOBILE APPS</li>
+								<li class="op-submenu mb-2">INTEGRACIÓN DE SISTEMAS</li>
+								<li class="op-submenu mb-2">UI / UX</li>
+								<li class="op-submenu mb-2">ACTUALIZACIÓN TECNOLÓGICA</li>
+								<li class="op-submenu mb-2">DESARROLLO NATIVO PARA LA NUBE</li>
+								<li class="op-submenu mb-2">DISCOVERY SESSIONS</li>
+								<li class="op-submenu mb-2">ADOPCION DE TECNOLOGIA DE CONTAINERS</li>
+								<li class="op-submenu mb-2">ARQUITECTURAS DE NUBE PRIVADA E HIBRIDA</li>
+								<li class="op-submenu mb-2">ARQUITECTURA DE SOFTWARE</li>
+								<li class="op-submenu">ROADMAPS PARA ADOPCION DE DEVOPS</li>
+							</ul>
+							<h5>METODOLOGIAS AGILES</h5>
+							<p>Scrum</p>
+							<h5>SCM</h5>
+							<p>Git, Git Lab, Git Hub y Bitbucket</p>
+							<h5>GESTIÓN DE ISSUES</h5>
+							<p>Redmine y Jira</p>
+							<h5>CI / CD</h5>
+							<p>Jenkins, Sonar, Nexus y Ansible</p>
+							<h4>Expertos en</h4>
+							<ul class="text-start">
+								<li class="op-submenu mb-2">ARQUITECTURA DE SOFTWARE</li>
+								<li class="op-submenu mb-2">DISEÑO DE SOFTWARE</li>
+								<li class="op-submenu mb-2">DISEÑO DE UX</li>
+								<li class="op-submenu mb-2">DISEÑO DE UI</li>
+								<li class="op-submenu mb-2">DESARROLLO DE SOFTWARE</li>
+								<li class="op-submenu">TESTING & QA</li>
+							</ul>
+							<h4>Servicios otorgados por un staff de técnicos certificados por marcas mundiales lideres</h4>
+							<h5>FRONTEND</h5>
+							<p>Web y Mobile</p>
+							<h5>BACKEND</h5>
+							<p>Java y JS</p>
+							<h5>SEGURIDAD</h5>
+							<p>Autenticación y autorización de aplicaciones</p>
+							<h5>PLATAFORMAS</h5>
+							<p>Java, Contenedores, NodeJs, Kubernetes y Openshift</p>
+							<h5>INTEGRACIONES</h5>
+							<p>API Managers, ESB y Colas de Mensajería</p>
+						</div>
+						<div class="tarjeta row" id="info-embalaje">
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+							<p>Lorem ipsum dolor sit.</p>
+							<img class="img-fluid mb-3" src="./assets/images/producto/06.jpg">
+							<img class="img-fluid" src="./assets/images/producto/07.jpg">
+						</div>
+						<div class="tarjeta row" id="info-caracteristicas">
+							<ul class="caracteristicas">
+								<li><span>Imprimibilidad: </span>Buena adaptabilidad de impresión y absorción de tinta, alta suavidad.</li>
+								<li><span>Capacidad de creación de imágenes: </span>Rápido desarrollo de la imagen, buena intensidad de imagen.</li>
+								<li><span>Resistencia al envejecimiento: </span>Buena resistencia a la luz y a la abrasión</li>
+								<li><span>Estabilidad dimensional: </span>Buena estabilidad dimensional, sobreimpresión y compaginación precisas</li>
+								<li><span>Calidad y servicio: </span>Control de calidad estable, excelente servicio postventa.</li>
+							</ul>
+						</div>
+						<div class="tarjeta row" id="info-consultar">
+							<form class="formulario-consulta" action="#" method="post">
+								<div class="row">
+									<div class="col-12 col-md-8 offset-md-2">
+										<div class="row">
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="text" class="form-control" placeholder="Nombre*" id="nombre" name="nombre" required>
+											</div>
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="text" class="form-control" placeholder="Apellido*" id="apellido" name="apellido" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="email" class="form-control" id="email" name="email" placeholder="E-mail*" required>
+											</div>
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono*" required>
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<textarea  class="form-control" placeholder="Ejemplo 1: Utilizar X pack de envolvente" id="mensaje" name="mensaje" required></textarea>
+										</div>
+										<button type="submit" class="btn-base">Enviar mensaje</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <section class="section-menus">
+			<div class="container">
+				<ul class="menu-info">
+					<li data-div="info-descripcion">DESCRIPCIÓN</li>
+					<li data-div="info-especificaciones">ESPECIFICACIONES</li>
+					<li data-div="info-embalaje">EMBALAJE</li>
+					<li data-div="info-caracteristicas">CARACTERÍSTICAS</li>
+					<li data-div="info-consultar">CONSULTAR</li>
+				</ul>
+				<div class="cuerpo-info row">
+					<div class="col-12">
+						<div class="tarjeta row" id="info-descripcion">
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione modi quis sed, reiciendis aliquam fugiat sit repellendus harum commodi minus architecto voluptas doloribus. Reiciendis beatae, quod placeat dolores aliquam dolore?</p>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio eius commodi magni ipsa quae esse blanditiis, est libero autem ab saepe nesciunt, beatae similique eligendi minima totam quos itaque tenetur!</p>
+							<img class="img-fluid" src="./assets/images/producto/04.jpg">
+						</div>
+						<div class="tarjeta row" id="info-especificaciones">
+							<div class="centrar-x">
+								<img class="img-fluid" src="./assets/images/producto/05.png">
+							</div>
+						</div>
+						<div class="tarjeta row" id="info-embalaje">
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+							<p>Lorem ipsum dolor sit.</p>
+							<img class="img-fluid mb-3" src="./assets/images/producto/06.jpg">
+							<img class="img-fluid" src="./assets/images/producto/07.jpg">
+						</div>
+						<div class="tarjeta row" id="info-caracteristicas">
+							<ul class="caracteristicas">
+								<li><span>Imprimibilidad: </span>Buena adaptabilidad de impresión y absorción de tinta, alta suavidad.</li>
+								<li><span>Capacidad de creación de imágenes: </span>Rápido desarrollo de la imagen, buena intensidad de imagen.</li>
+								<li><span>Resistencia al envejecimiento: </span>Buena resistencia a la luz y a la abrasión</li>
+								<li><span>Estabilidad dimensional: </span>Buena estabilidad dimensional, sobreimpresión y compaginación precisas</li>
+								<li><span>Calidad y servicio: </span>Control de calidad estable, excelente servicio postventa.</li>
+							</ul>
+						</div>
+						<div class="tarjeta row" id="info-consultar">
+							<form class="formulario-consulta" action="#" method="post">
+								<div class="row">
+									<div class="col-12 col-md-8 offset-md-2">
+										<div class="row">
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="text" class="form-control" placeholder="Nombre*" id="nombre" name="nombre" required>
+											</div>
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="text" class="form-control" placeholder="Apellido*" id="apellido" name="apellido" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="email" class="form-control" id="email" name="email" placeholder="E-mail*" required>
+											</div>
+											<div class="form-group col-12 col-md-6 mb-3">
+												<input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono*" required>
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<textarea  class="form-control" placeholder="Ejemplo 1: Utilizar X pack de envolvente" id="mensaje" name="mensaje" required></textarea>
+										</div>
+										<button type="submit" class="btn-base">Enviar mensaje</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<section class="section-oficina position-relative">
+			<div class="visita row">
+				<div class="col-6 position-relative d-none d-md-block">
+					<img class="pesonal" src="./assets/images/personal-oficina.png">
+					<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+					<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+					<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+				</div>
+				<div class="col-md-6 cta-oficina" data-aos="zoom-in" data-aos-delay="300" data-aos-offset="-1500">
+					<h2>Visitá algunos de nuestros espacios de trabajo</h2>
+					<p>Gracias a los gemelos digitales disponibles, que representan a espacios y objetos
+						existentes en la vida real, puedes realizar un recorrido virtual a través del
+						avatar.</p>
+					<a target="_blank" href="https://www.spatial.io/s/DataSystemss-Metaverse-63930f8244be1c0001cdaa41?share=7668821668608931057">Descubrir</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row position-relative d-block d-md-none mt-4">
+					<div class="col-12 ">
+						<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+						<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+						<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+						<img class="pesonal" src="./assets/images/personal-oficina.png">
+						<img class="invisible" src="./assets/images/personal-oficina.png">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="contenedor-oficina mx-xl-3">
+					<div class="row">
+						<div class="col-xl-6 mb-3">
+							<div class="mx-2 firts">
+								<h3 class="fw-700 mb-4">¿Listo para empezar?</h3>
+								<p>Contactá con nuestro equipo de expertos para encontrar la solución que más se adapte a tus necesidades.</p>
+								<a class="btn-naranja" href="contacto.html">Contactános</a>
+							</div>
+						</div>
+						<!--<div class="col-md-6 col-xl-3 mb-3">
+							<div class="mx-2">
+								<h4 class="text-center fw-700 mb-3">Soluciones</h4>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-candado.svg"> Infraestructura</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Impresión</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Open Sourse</p>
+							</div>
+						</div>-->
+						<div class="col-md-6 col-xl-4 mb-4 espacio">
+							<div class="mx-2">
+								<p class="fw-500 mb-4">Suscribite a nuestro Newsletter para enterearte de las novedades.</p>
+								<form class="subscripcion row mb-4" action="#" method="post">
+									<input class="mb-4" id="email" name="email"  type="email" placeholder="Tu E-mail" required/>
+									<div class="position-relative">
+										<img class="enviar-imagen" src="./assets/images/avion.png">
+										<button type="submit" class="btn-blanco">Suscribirse</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-contacto position-relative">
+			<div class="imagenDeFondo fondo-2 top"></div>
+			<div class="container">
+				<div class="banner-info">
+					<h1 class="mb-5">Soluciones <span class="text-orange">tecnológicas integrales</span> e innovadoras</h1>
+					<p class="mb-4">Confíe en profesionales con experiencia y conocimientos especializados para llevar a cabo proyectos tecnológicos en su empresa. Asegurará su inversión, resultados óptimos, una implementación eficaz y una solución a la medida de sus necesidades.</p>
+					<a href="contacto.html" class="btn-base text-center ft-12">HABLÁ CON UNO<br>DE NUESTROS EXPERTOS</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="pie-de-pagina">
+		<div class="footer">
+			<div class="container">
+				<div class="d-flex flex-column flex-lg-row align-items-center pt-5">
+					<div class="redes">
+						<img src="./assets/images/logo-footer.png">
+						<ul class="ps-0 pt-4">
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/mapa.svg">
+									<span class="ps-3">Av. Perú 1005</span>
+								</a>
+                            </li>
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/tel.svg">
+									<span class="ps-3">+595 21 213 347</span>
+								</a>
+                            </li>
+							<li>
+								<a href="#" target="_blank" class="d-flex">
+									<img src="./assets/images/horario.svg">
+									<div class="d-flex flex-column ps-3">
+										<span>Horario de atención:</span>
+										<span>Lun a Vie de 08 a 18hs</span>
+										<span>Sáb de 09 a 12hs</span>
+									</div>
+								</a>
+                            </li>
+                        </ul>
+					</div>
+					<div class="d-flex flex-colum justify-content-end align-content-center w-100">
+						<div class="row d-flex justify-content-center">
+							<div class="offset-xl-1 col-lg-6">
+								<h5 class="text-center">Soluciones</h5>
+								<div class="row">
+									<div class="col">
+											<ul class="list-unstyled">
+												<li><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+												<li><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+												<li><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+												<li><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+											</ul>
+									</div>
+									<div class="col">
+										<ul class="list-unstyled">
+											<li><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+											<li><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+											<li><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+											<li><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h5>Recursos</h5>
+								<ul class="list-unstyled">
+									<li><a href="recursos.html">Recursos disponibles</a></li>
+									<li><a href="eventos.html">Eventos y Noticias</a></li>
+									<li><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+								</ul>
+							</div>
+							<div class="col">
+								<h5>Sobre Nosotros</h5>
+								<ul class="list-unstyled">
+									<li><a href="empresa.html">La Empresa</a></li>
+									<!-- <li><a href="politica.html">Políticas de Calidad</a></li> -->
+									<li><a href="nosotros.html">Comó vemos el mundo</a></li>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="adn.html">Adn</a></li>
+									<li><a href="inversionistas.html">Inversionistas</a></li>
+									<li><a href="alianzas.html">Alianzas</a></li>
+								</ul>
+							</div>
+						</div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom">
+			<div class="container d-none d-sm-flex">
+				<p>Datasystems SAECA 2024</p>
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<a href="https://twitter.com/datasystemspy" target="_blank"><img src="./assets/images/x-footer.png"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/datasystemspy/" target="_blank"><img src="./assets/images/instagram.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mt-4" href="https://www.linkedin.com/company/datasystemspy" target="_blank"><img src="./assets/images/linkedin.png"></a>
+				</li>
+				<li class="list-inline-item me-4">
+					<a href="https://www.youtube.com/@datasystemspy" target="_blank"><img src="./assets/images/Youtube.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/iso.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/whatsapp.svg"></a>
+				</li>
+			</ul>
+			<div class="container d-flex d-sm-none text-center">
+				<p class="w-100">Datasystems SAECA 2024</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+		integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="./assets/js/seleccionar-opcion.js"></script>
+</body>
+
+</html>

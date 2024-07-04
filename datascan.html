@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Datasystems - Empresa</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--CSS-->
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="./assets/images/logo.ico">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/magnific-popup.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-xl index">
+			<div class="container">
+				<a class="navbar-brand logo me-0" href="index.html">
+					<img src="./assets/images/empresa-2.png" alt="logo empresa">
+				</a>
+				<a class="nav-link me-0 op-menu  d-flex d-xl-none" data-toggle="collapse" data-target="#m-menu" aria-expanded="false">
+					<img class="icono-nav" src="./assets/images/opciones.svg">
+				</a>
+				<div class="justify-content-center d-none d-xl-flex" tabindex="-1" id="navbarMenu">
+					<ul class="navbar-nav ml-auto justify-content-start justify-content-lg-between align-items-center w-100">
+						<div class="d-flex  flex-column flex-lg-row  align-items-center">
+							<a class="nav-link me-0" href="/">
+								<li class="nav-item">Inicio</li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-soluciones" aria-expanded="false">
+								<li class="nav-item">Soluciones<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-nosotros" aria-expanded="false">
+								<li class="nav-item">Sobre Nosotros<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-recursos" aria-expanded="false">
+								<li class="nav-item">Recursos <img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a href="contacto.html">
+								<div class="ss">
+									<div class="borde-svg">En Contacto</div>
+								</div>
+							</a>
+							<a href="/" class="ms-1">
+								<div class="acceso">
+									<div class="borde-svg btn-acceso">Portal del cliente</div>
+								</div>
+							</a>
+							<!-- <a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-spain.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-english.svg">
+							</a> -->
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/x-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/instagran-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/linkedin.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/f-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/youtube-gris.png">
+							</a>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="sub-menu collapse" id="m-soluciones">
+			<div class="links">
+				<a class="dropdown-item" href="soluciones.html#sol-1">Impresión y escaneo</a>
+				<a class="dropdown-item" href="soluciones.html#sol-2">Gestión Documental y Digitalización</a>
+				<a class="dropdown-item" href="soluciones.html#sol-3">Desarrollo de software</a>
+				<a class="dropdown-item" href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a>
+				<a class="dropdown-item" href="soluciones.html#sol-5">Integración, Automatización y Nube</a>
+				<a class="dropdown-item" href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a>
+				<a class="dropdown-item" href="soluciones.html#sol-7">Trabajo Colaborativo</a>
+				<a class="dropdown-item mb-3" href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-nosotros">
+			<div class="links">
+				<a class="dropdown-item" href="empresa.html">La empresa</a>
+				<a class="dropdown-item" href="nosotros.html">Comó vemos el mundo</a>
+				<!-- <a class="dropdown-item" href="politica.html">Politicas de calidad</a> -->
+				<a class="dropdown-item" href="historia.html">Historia</a>
+				<a class="dropdown-item" href="adn.html">Adn</a>
+				<a class="dropdown-item" href="inversionistas.html">Inversionistas</a>
+				<a class="dropdown-item mb-3" href="alianzas.html">Alianzas</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-recursos">
+			<div class="links">
+				<a class="dropdown-item" href="recursos.html">Recursos disponibles</a>
+				<a class="dropdown-item" href="eventos.html">Eventos y Noticias</a>
+				<a class="dropdown-item mb-3" href="apartado_tecnico.html">Apartado Técnico</a>
+			</div>
+		</div>
+		<div class="sub-menu collapse w-100" id="m-menu">
+				<ul class="nav flex-column">
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Soluciones</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Cómo vemos el mundo</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="empresa.html">La empresa</a></li>
+							<li class="op-submenu"><a href="nosotros.html">Comó vemos el mundo</a></li>
+							<!-- <li class="op-submenu"><a href="politica.html">Politicas de calidad</a></li> -->
+							<li class="op-submenu"><a href="historia.html">Historia</a></li>
+							<li class="op-submenu"><a href="adn.html">Adn</a></li>
+							<li class="op-submenu"><a href="inversionistas.html">Inversionistas</a></li>
+							<li class="op-submenu"><a href="alianzas.html">Alianzas</a></li>
+						</ul>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Recursos</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="recursos.html">Recursos disponibles</a></li>
+							<li class="op-submenu"><a href="eventos.html">Eventos y Noticias</a></li>
+							<li class="op-submenu"><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<a href="contacto.html" class="m-responsive text-black">En Contacto</a>
+					</li>
+					<li class="nav-item-responsive pb-3">
+						<a href="/" class="m-responsive text-black">Portal del Cliente</a>
+					</li>
+				</ul>
+		</div>
+	</header>
+	<main>
+		<section class="section-data mt-lg-4 mb-lg-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-xl-5">
+						<h1 class="efecto-sombra-6" data-aos="zoom-in" data-aos-delay="100">Datascan</h1>
+						<p class="text-black mt-4" data-aos="zoom-in-down" data-aos-delay="300">Desde el corazón de Paraguay, con orgullo
+							nacional y el espíritu innovador de Datasystems, presentamos DataScan,
+							el gestor de documentos digitales que revoluciona la forma en que las
+							organizaciones capturan, gestionan y comparten información. Creado por
+							ingenieros paraguayos excepcionalmente talentosos, DataScan es un testimonio
+							de nuestro ingenio, dedicación y pasión por impulsar la transformación
+							digital en nuestro país.
+						</p>
+					</div>
+					<div class="col-lg-6 col-xl-7" data-aos="fade-left" data-aos-delay="500">
+						<iframe width="100%" height="550" src="https://www.youtube.com/embed/vcRIgvQjRrQ?si=g8FTVl_B92KjW8G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-cultura">
+			<div class="container text-center" data-aos="zoom-in" data-aos-delay="100">
+				<div class="centrar-x justify-content-around flex-column flex-lg-row">
+					<img class="img-fluid" src="./assets/images/bandera.png">
+					<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/datascan_2.png">
+					<div class="contenedor-fondoPixel position-relative">
+						<div class="fondoPixel"></div>
+						<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+					</div>
+				</div>
+				<p class="mw-1000 mx-auto">Como solución hecha 100% en Paraguay, la misma se adecua a
+					las necesidades de Gestión de Documentación Digital del Mercado Nacional,
+					ofreciendo una Solución Integral con la cual usted podrá:</p>
+				<ul class="text-start">
+					<li class="op-submenu mb-2">Cargar un documento o un lote de Documentos al Sistema, mediante un proceso de Indexación por campos claves.</li>
+					<li class="op-submenu mb-2">Buscar los documentos previamente cargados, mediante los campos en una pantalla de búsqueda.</li>
+					<li class="op-submenu">Disponibilizar todos los documentos que se hayan digitalizado para todos los funcionarios de su organización, o de lo contrario limitar el acceso solamente para los directivos de su organización.</li>
+				</ul>
+				<h4 class="text-orange fw-500 mb-3">Las ventajas que tiene el DataScan:</h4>
+				<ul class="text-start">
+					<li class="op-submenu mb-2"><span class="fw-500">Centralización y organización:</span> Almacena todos los documentos digitales en un único repositorio centralizado, lo que facilita la búsqueda, el acceso y la gestión.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Seguridad y cumplimiento:</span> Protege los documentos confidenciales con medidas de seguridad y cumple con las normativas de cumplimiento.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Acceso remoto y colaboración:</span> Posibilita acceder a los documentos desde cualquier lugar y en cualquier momento, y colaborar fácilmente con colegas y equipos remotos.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Automatización de procesos:</span> Automatiza tareas repetitivas como la indexación, la clasificación y la distribución de documentos, liberando tiempo y recursos valiosos.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Reducción de costos:</span> Elimina los costos de almacenamiento físico, impresión y envío, y reduce los gastos generales de gestión de documentos.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Mejora de la productividad:</span> Agiliza los procesos de negocio, reduce los tiempos de respuesta y aumenta la eficiencia general.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Escalabilidad y flexibilidad:</span> El Gestor de Documentos Digitales Datascan es escalable para adaptarse a las necesidades cambiantes de las empresas y ofrece opciones de implementación flexibles para una integración perfecta.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Mejora de la satisfacción del cliente:</span> Proporciona a los clientes un acceso rápido y fácil a los documentos que necesitan, mejorando la satisfacción y la fidelidad.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Ventajas medioambientales:</span> Reduce el uso de papel y los residuos, contribuyendo a iniciativas de sostenibilidad.</li>
+					<li class="op-submenu mb-2"><span class="fw-500">Retorno de la inversión (ROI) demostrado:</span> Datascan ofrece un sólido retorno de la inversión al reducir costos, mejorar la productividad y optimizar los procesos de negocio.</li>
+					<li class="op-submenu">Soporte técnico especializado y posibilidades de desarrollos personalizables a las necesidades de la empresa.</li>
+				</ul>
+				<a class="btn-naranja mx-auto" target="_blank" href="https://www.datascan.com.py/">Más información</a>
+			</div>
+			<div class="container text-center mt-5 pt-5" data-aos="zoom-in" data-aos-delay="100">
+				<img class="img-fluid" src="./assets/images/productos/imagenes_prducto/cloud_2.png">
+				<p class="mw-1000 mx-auto">Es una versión con características reducidas a la de la versión Enterprise, en un formato
+					SaaS (Software as a Service), dirigida a pequeñas y medianas empresas, sin la necesidad de
+					adquirir equipos con altos costos como servidores o la compra del software mismo,
+					ya que el usuario sólo pagará por el servicio. Usted podrá acceder a la aplicación desde cualquier lugar
+					y a cualquier momento, solo deberá contar con una conexión a internet.</p>
+				<h4 class="text-orange fw-500">Principales beneficios:</h4>
+				<ul class="text-start">
+					<li class="op-submenu mb-2">Sin inversiones en hardware y servicios de instalación.</li>
+					<li class="op-submenu mb-2">No requiere administración ni mantenimiento por parte del cliente.</li>
+					<li class="op-submenu mb-2">No es necesario adquirir el software, solo pagará por el servicio.</li>
+					<li class="op-submenu">Accesible desde cualquier lugar en cualquier momento.</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section-ct-data fondopixel">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 mb-4">
+						<div class="ct-data" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-600">
+							<img class="img-fluid logo-fondo" src="./assets/images/productos/imagenes_prducto/datascan_2.png">
+							<h4 class="text-orange text-center">DataScan Enterprise</h4>
+							<p>Licencia ilimitada para usuarios.</p>
+							<p>Sistema Web: Se puede acceder desde cualquier PC con un navegador Web.</p>
+							<p>Sistemas Modulares específicos para cada tarea (Carga, Consulta, Administración, otros).
+							</p>
+							<p>Funciones flexibles que pueden integrarse con otros Sistemas Informáticos.
+							</p>
+							<p>Se compone de módulos especializados con funcionalidades diferentes, pero que se complementan y comunican entre sí de forma fluida dentro del entorno del Sistema.
+							</p>
+							<div class="row">
+								<div class="col-7">
+									<p>Básico:</p>
+									<ul class="text-start">
+										<li class="op-submenu">Consultas o Búsquedas de Documentos
+										</li>
+										<li class="op-submenu">Visualización
+										</li>
+										<li class="op-submenu">Indexación de Documentos
+										</li>
+										<li class="op-submenu">Administración del Sistema
+										</li>
+										<li class="op-submenu">Web Service
+										</li>
+										<li class="op-submenu">Integración con Servicios de Directorio (LDAP)
+										</li>
+										<li class="op-submenu">Reportes y Auditoría
+										</li>
+										<li class="op-submenu">Control de Vencimiento de Documentos
+										</li>
+									</ul>
+								</div>
+								<div class="col-5">
+									<p>Opcionales:</p>
+									<ul class="text-start">
+										<li class="op-submenu">Workflow</li>
+										<li class="op-submenu">Administración de Archivo Físico
+										</li>
+										<li class="op-submenu">Importador e Indexador automático
+										</li>
+										<li class="op-submenu">Firma Digital
+										</li>
+										<li class="op-submenu">Imagen Médica DICOM
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 centrar-x position-relative">
+						<img class="arrow-data1" src="./assets/images/flecha-naranja.png" data-aos="zoom-in" data-aos-delay="400" data-aos-offset="-400">
+						<div class="ct-data-cloud" data-aos="fade-left" data-aos-delay="800" data-aos-offset="-600">
+							<img class="img-fluid logo-fondo" src="./assets/images/productos/imagenes_prducto/cloud_2.png">
+							<h4 class="text-center">Datascan Cloud</h4>
+							<p>Es una versión con características reducidas a la de la versión Enterprise
+							</p>
+							<p>Formato SaaS (Software as a Service), dirigida a pequeñas y medianas empresas
+							</p>
+							<p>Sin la necesidad de adquirir equipos con altos costos como servidores o la compra del software mismo, ya que el usuario sólo pagará por el servicio. 
+							</p>
+							<p>Para el acceso solo deberá contar con una conexión a internet
+							</p>
+							<p>Sin inversiones en hardware y servicios de instalación.
+							</p>
+							<p>No requiere administración ni mantenimiento por parte del cliente.
+							</p>
+							<p>No es necesario adquirir el software, solo pagará por el servicio.
+							</p>
+							<p>Accesible desde cualquier lugar en cualquier momento.
+							</p>
+						</div>
+						<img class="arrow-data2" src="./assets/images/flecha-azul.png" data-aos="zoom-in" data-aos-delay="1000" data-aos-offset="-1000">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-oficina position-relative">
+			<div class="visita row">
+				<div class="col-6 position-relative d-none d-md-block">
+					<img class="pesonal" src="./assets/images/personal-oficina.png">
+					<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+					<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+					<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+				</div>
+				<div class="col-md-6 cta-oficina" data-aos="zoom-in" data-aos-delay="300" data-aos-offset="-900">
+					<h2>Visitá algunos de nuestros espacios de trabajo</h2>
+					<p>Gracias a los gemelos digitales disponibles, que representan a espacios y objetos
+						existentes en la vida real, puedes realizar un recorrido virtual a través del
+						avatar.</p>
+					<a target="_blank" href="https://www.spatial.io/s/DataSystemss-Metaverse-63930f8244be1c0001cdaa41?share=7668821668608931057">Descubrir</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row position-relative d-block d-md-none mt-4">
+					<div class="col-12 ">
+						<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+						<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+						<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+						<img class="pesonal" src="./assets/images/personal-oficina.png">
+						<img class="invisible" src="./assets/images/personal-oficina.png">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="contenedor-oficina mx-xl-3">
+					<div class="row">
+						<div class="col-xl-6 mb-3">
+							<div class="mx-2 firts">
+								<h3 class="fw-700 mb-4">¿Listo para empezar?</h3>
+								<p>Contactá con nuestro equipo de expertos para encontrar la solución que más se adapte a tus necesidades.</p>
+								<a class="btn-naranja" href="contacto.html">Contactános</a>
+							</div>
+						</div>
+						<!--<div class="col-md-6 col-xl-3 mb-3">
+							<div class="mx-2">
+								<h4 class="text-center fw-700 mb-3">Soluciones</h4>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-candado.svg"> Infraestructura</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Impresión</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Open Sourse</p>
+							</div>
+						</div>-->
+						<div class="col-md-6 col-xl-4 mb-4 espacio">
+							<div class="mx-2">
+								<p class="fw-500 mb-4">Suscribite a nuestro Newsletter para enterearte de las novedades.</p>
+								<form class="subscripcion row mb-4" action="#" method="post">
+									<input class="mb-4" id="email" name="email"  type="email" placeholder="Tu E-mail" required/>
+									<div class="position-relative">
+										<img class="enviar-imagen" src="./assets/images/avion.png">
+										<button type="submit" class="btn-blanco">Suscribirse</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-contacto position-relative">
+			<div class="imagenDeFondo fondo-2 top"></div>
+			<div class="container">
+				<div class="banner-info">
+					<h1 class="mb-5">Soluciones <span class="text-orange">tecnológicas integrales</span> e innovadoras</h1>
+					<p class="mb-4">Confíe en profesionales con experiencia y conocimientos especializados para llevar a cabo proyectos tecnológicos en su empresa. Asegurará su inversión, resultados óptimos, una implementación eficaz y una solución a la medida de sus necesidades.</p>
+					<a href="contacto.html" class="btn-base text-center ft-12">HABLÁ CON UNO<br>DE NUESTROS EXPERTOS</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="pie-de-pagina">
+		<div class="footer">
+			<div class="container">
+				<div class="d-flex flex-column flex-lg-row align-items-center pt-5">
+					<div class="redes">
+						<img src="./assets/images/logo-footer.png">
+						<ul class="ps-0 pt-4">
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/mapa.svg">
+									<span class="ps-3">Av. Perú 1005</span>
+								</a>
+                            </li>
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/tel.svg">
+									<span class="ps-3">+595 21 213 347</span>
+								</a>
+                            </li>
+							<li>
+								<a href="#" target="_blank" class="d-flex">
+									<img src="./assets/images/horario.svg">
+									<div class="d-flex flex-column ps-3">
+										<span>Horario de atención:</span>
+										<span>Lun a Vie de 08 a 18hs</span>
+										<span>Sáb de 09 a 12hs</span>
+									</div>
+								</a>
+                            </li>
+                        </ul>
+					</div>
+					<div class="d-flex flex-colum justify-content-end align-content-center w-100">
+						<div class="row d-flex justify-content-center">
+							<div class="offset-xl-1 col-lg-6">
+								<h5 class="text-center">Soluciones</h5>
+								<div class="row">
+									<div class="col">
+											<ul class="list-unstyled">
+												<li><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+												<li><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+												<li><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+												<li><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+											</ul>
+									</div>
+									<div class="col">
+										<ul class="list-unstyled">
+											<li><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+											<li><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+											<li><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+											<li><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h5>Recursos</h5>
+								<ul class="list-unstyled">
+									<li><a href="recursos.html">Recursos disponibles</a></li>
+									<li><a href="eventos.html">Eventos y Noticias</a></li>
+									<li><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+								</ul>
+							</div>
+							<div class="col">
+								<h5>Sobre Nosotros</h5>
+								<ul class="list-unstyled">
+									<li><a href="empresa.html">La Empresa</a></li>
+									<!-- <li><a href="politica.html">Políticas de Calidad</a></li> -->
+									<li><a href="nosotros.html">Comó vemos el mundo</a></li>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="adn.html">Adn</a></li>
+									<li><a href="inversionistas.html">Inversionistas</a></li>
+									<li><a href="alianzas.html">Alianzas</a></li>
+								</ul>
+							</div>
+						</div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom">
+			<div class="container d-none d-sm-flex">
+				<p>Datasystems SAECA 2024</p>
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<a href="https://twitter.com/datasystemspy" target="_blank"><img src="./assets/images/x-footer.png"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/datasystemspy/" target="_blank"><img src="./assets/images/instagram.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mt-4" href="https://www.linkedin.com/company/datasystemspy" target="_blank"><img src="./assets/images/linkedin.png"></a>
+				</li>
+				<li class="list-inline-item me-4">
+					<a href="https://www.youtube.com/@datasystemspy" target="_blank"><img src="./assets/images/Youtube.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/iso.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/whatsapp.svg"></a>
+				</li>
+			</ul>
+			<div class="container d-flex d-sm-none text-center">
+				<p class="w-100">Datasystems SAECA 2024</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+		integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

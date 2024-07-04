@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Datasystems - ADN</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--CSS-->
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="./assets/images/logo.ico">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/magnific-popup.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-xl index">
+			<div class="container">
+				<a class="navbar-brand logo me-0" href="index.html">
+					<img src="./assets/images/empresa-2.png" alt="logo empresa">
+				</a>
+				<a class="nav-link me-0 op-menu  d-flex d-xl-none" data-toggle="collapse" data-target="#m-menu" aria-expanded="false">
+					<img class="icono-nav" src="./assets/images/opciones.svg">
+				</a>
+				<div class="justify-content-center d-none d-xl-flex" tabindex="-1" id="navbarMenu">
+					<ul class="navbar-nav ml-auto justify-content-start justify-content-lg-between align-items-center w-100">
+						<div class="d-flex  flex-column flex-lg-row  align-items-center">
+							<a class="nav-link me-0" href="/">
+								<li class="nav-item">Inicio</li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-soluciones" aria-expanded="false">
+								<li class="nav-item">Soluciones<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-nosotros" aria-expanded="false">
+								<li class="nav-item">Sobre Nosotros<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-recursos" aria-expanded="false">
+								<li class="nav-item">Recursos <img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a href="contacto.html">
+								<div class="ss">
+									<div class="borde-svg">En Contacto</div>
+								</div>
+							</a>
+							<a href="/" class="ms-1">
+								<div class="acceso">
+									<div class="borde-svg btn-acceso">Portal del cliente</div>
+								</div>
+							</a>
+							<!-- <a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-spain.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-english.svg">
+							</a> -->
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/x-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/instagran-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/linkedin.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/f-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/youtube-gris.png">
+							</a>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="sub-menu collapse" id="m-soluciones">
+			<div class="links">
+				<a class="dropdown-item" href="soluciones.html#sol-1">Impresión y escaneo.</a>
+				<a class="dropdown-item" href="soluciones.html#sol-2">Gestión Documental y Digitalización</a>
+				<a class="dropdown-item" href="soluciones.html#sol-3">Desarrollo de software</a>
+				<a class="dropdown-item" href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a>
+				<a class="dropdown-item" href="soluciones.html#sol-5">Integración, Automatización y Nube</a>
+				<a class="dropdown-item" href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a>
+				<a class="dropdown-item" href="soluciones.html#sol-7">Trabajo Colaborativo</a>
+				<a class="dropdown-item mb-3" href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-nosotros">
+			<div class="links">
+				<a class="dropdown-item" href="empresa.html">La empresa</a>
+				<a class="dropdown-item" href="nosotros.html">Comó vemos el mundo</a>
+				<!-- <a class="dropdown-item" href="politica.html">Politicas de calidad</a> -->
+				<a class="dropdown-item" href="historia.html">Historia</a>
+				<a class="dropdown-item" href="adn.html">Adn</a>
+				<a class="dropdown-item" href="inversionistas.html">Inversionistas</a>
+				<a class="dropdown-item mb-3" href="alianzas.html">Alianzas</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-recursos">
+			<div class="links">
+				<a class="dropdown-item" href="recursos.html">Recursos disponibles</a>
+				<a class="dropdown-item" href="eventos.html">Eventos y Noticias</a>
+				<a class="dropdown-item mb-3" href="apartado_tecnico.html">Apartado Técnico</a>
+			</div>
+		</div>
+		<div class="sub-menu collapse w-100" id="m-menu">
+				<ul class="nav flex-column">
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Soluciones</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="soluciones.html#sol-1">Impresión y escaneo.</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Cómo vemos el mundo</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="empresa.html">La empresa</a></li>
+							<li class="op-submenu"><a href="nosotros.html">Comó vemos el mundo</a></li>
+							<!-- <li class="op-submenu"><a href="politica.html">Politicas de calidad</a></li> -->
+							<li class="op-submenu"><a href="historia.html">Historia</a></li>
+							<li class="op-submenu"><a href="adn.html">Adn</a></li>
+							<li class="op-submenu"><a href="inversionistas.html">Inversionistas</a></li>
+							<li class="op-submenu"><a href="alianzas.html">Alianzas</a></li>
+						</ul>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Recursos</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="recursos.html">Recursos disponibles</a></li>
+							<li class="op-submenu"><a href="eventos.html">Eventos y Noticias</a></li>
+							<li class="op-submenu"><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<a href="contacto.html" class="m-responsive text-black">En Contacto</a>
+					</li>
+					<li class="nav-item-responsive pb-3">
+						<a href="/" class="m-responsive text-black">Portal del Cliente</a>
+					</li>
+				</ul>
+		</div>
+	</header>
+	<main>
+		<section class="section-banner position-relative">
+			<div class="imagenDeFondo-2 fondo-3 bottom"></div>
+			<div class="d-flex justify-content-center align-items-center">
+				<img class="adn-titulo" src="./assets/images/adn.png" data-aos="zoom-in" data-aos-delay="200">
+			</div>
+		</section>
+		<section class="section-adn-cifras">
+			<div class="container">
+				<div class="row mx-xl-5">
+					<div class="col-md-6 col-lg-4 mb-5" data-aos="fade-right" data-aos-delay="100">
+						<div class="mx-2 text-center">
+							<div class="encabezado">
+								<img class="me-2" src="./assets/images/adn/ico-adn-1.png">
+								<span class="adn-cifra">+150</span>
+								<span class="text-start">daters <br></span>
+							</div>
+							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque
+								ante nec condimentum sagittis. Duis quis finibus nunc. Vestibulum
+								non nisi sed purus consectetur.</p>-->
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-5" data-aos="fade-down" data-aos-delay="100">
+						<div class="mx-2 text-center">
+							<div class="encabezado">
+								<img class="me-2" src="./assets/images/adn/ico-adn-2.png">
+								<span class="adn-cifra">+ 37</span>
+								<span class="text-start">años <br>en el mercado</span>
+							</div>
+							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque
+								ante nec condimentum sagittis. Duis quis finibus nunc. Vestibulum
+								non nisi sed purus consectetur.</p>-->
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-5" data-aos="fade-left" data-aos-delay="100">
+						<div class="mx-2 text-center">
+							<div class="encabezado">
+								<span class="adn-cifra">100%</span>
+								<span class="text-start me-2">especialistas<br>certificados</span>
+								<img src="./assets/images/adn/ico-adn-3.png">
+							</div>
+							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque
+								ante nec condimentum sagittis. Duis quis finibus nunc. Vestibulum
+								non nisi sed purus consectetur.</p>-->
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-5" data-aos="fade-right" data-aos-delay="100">
+						<div class="mx-2 text-center">
+							<div class="encabezado">
+								<img class="me-2" src="./assets/images/adn/ico-adn-4.png">
+								<span class="adn-cifra">+ 20</span>
+								<span class="text-start">expert<br>solutions</span>
+							</div>
+							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque
+								ante nec condimentum sagittis. Duis quis finibus nunc. Vestibulum
+								non nisi sed purus consectetur.</p>-->
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+						<div class="mx-2 text-center">
+							<div class="encabezado">
+								<img class="me-2" src="./assets/images/adn/ico-adn-5.png">
+								<span class="adn-cifra">4</span>
+								<span class="text-start">unidades <br>de negocio</span>
+							</div>
+							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque
+								ante nec condimentum sagittis. Duis quis finibus nunc. Vestibulum
+								non nisi sed purus consectetur.</p>-->
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-5" data-aos="fade-left" data-aos-delay="100">
+						<div class="mx-2 text-center">
+							<div class="encabezado">
+								<span class="adn-cifra">100%</span>
+								<span class="text-start me-2">cobertura<br>nacional</span>
+								<img src="./assets/images/adn/ico-adn-6.png">
+							</div>
+							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque
+								ante nec condimentum sagittis. Duis quis finibus nunc. Vestibulum
+								non nisi sed purus consectetur.</p>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--<section class="section-mercado position-relative">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+						<div class="espacio">
+							<h2>Lideramos el<br class="d-none d-md-block">mercado</h2>
+							<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem
+								ipsum  Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+								ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+								ipsumLorem ipsumLorem ipsum</p>
+						</div>
+					</div>
+					<div class="col-md-5 col-lg-6 position-relative mt-4 mt-md-0">
+						<img class="img-fluid invisible" src="./assets/images/adn/celular.webp">
+						<img class="img-fluid mercado-img" src="./assets/images/adn/celular.webp">
+					</div>
+				</div>
+			</div>
+		</section>-->
+		<section class="section-adn">
+			<div class="container">
+				<div class="row pt-4 text-center text-md-start">
+					<div class="col-md-6 imagen" data-aos="fade-right" data-aos-delay="100">
+						<div class="contenedor-fondoPixel position-relative">
+							<div class="fondoPixel"></div>
+							<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+						</div>
+					</div>
+					<div class="col-md-6 info" data-aos="fade-left" data-aos-delay="100">
+						<div class="d-flex">
+							<h2 class="mb-3 text-orange text-center text-md-start w-100">El Píxel<br class="d-none d-md-block">y nuestros colores</h2>
+							<p>Los píxeles son los ADN de todos los sistemas informáticos y si se juntan,
+								tienen la información suficiente para hacer cualquier imagen.<br> 
+								<span class="text-orange fw-600">Nuestro logo</span> homenajea al pixel y representa una analogía, donde la
+								Empresa ha venido guardando mucha información en forma de experiencia
+								y decidió, usar toda esa experiencia para hacer cosas más grandes.<br>
+								Quiere decir que, el espíritu del píxel está en el ADN de Datasystems.<br>
+								Nuestros <span class="text-orange fw-600">colores corporativos</span> son el azul, gris y naranja.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5 pt-5">
+					<div class="col-12 col-lg-11 col-xxl-10 mx-auto" data-aos="zoom-in" data-aos-delay="100">
+						<iframe width="100%" height="550" src="https://www.youtube.com/embed/awqa6kJdjg0?si=Mpx9vZHwkxdiSWGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-adn-valores">
+			<div class="container position-relative">
+				<div class="row">
+					<div class="col-md-6 valores-adn-info" data-aos="fade-right" data-aos-delay="100" data-aos-offset="-200">
+						<img class="scroll d-none d-md-flex" src="./assets/images/iconos/scroll.png">
+						<div id="sinergia">
+							<img class="mb-3 d-block d-md-none" src="./assets/images/bases/01_1.png">
+							<h4 class="text-orange mb-4">Sinergia</h4>
+							<p class="ft-14">En Datasystems, generamos sinergia para asegurarnos de llevar las soluciones
+								tecnológicas a nuestros clientes, con los estándares más altos y en el menor
+								tiempo posible. Por lo que nuestros trabajadores directos (Daters) como
+								nuestra red externa de Socios de Negocios, Proveedores y Prestadores de
+								Servicio Independientes, conforman parte importante de nuestra empresa.</p>
+						</div>
+						<div id="cordinacion">
+							<img class="mb-3 d-block d-md-none" src="./assets/images/bases/02_1.png">
+							<h4 class="text-orange mb-4">Coordinación</h4>
+							<p class="ft-14">La naturaleza de nuestra Empresa requiere de un trabajo altamente coordinado
+								de varios grupos generacionales, en formatos híbridos de trabajo, en
+								capacitación continua, entrenamientos supervisados y certificaciones.</p>
+						</div>
+						<div id="procesos">
+							<img class="mb-3 d-block d-md-none" src="./assets/images/bases/03_1.png">
+							<h4 class="text-orange mb-4">Procesos</h4>
+							<p class="ft-14">Ser Proveedor, Socio de Negocio y Prestador de Servicio independiente no son
+								vías directas para conseguir un empleo de dependencia en Datasystems. Si
+								surge un proyecto concreto o un puesto vacante en el que se necesita
+								personal a largo plazo, estos trabajadores pueden entrar en los mismos
+								procesos de selección, como otros candidatos cualificados.</p>
+						</div>
+						<div id="conducta">
+							<img class="mb-3 d-block d-md-none" src="./assets/images/bases/04_1.png">
+							<h4 class="text-orange mb-4">Conducta</h4>
+							<p class="ft-14">Como Empresa en crecimiento y en contante cambio, queremos estar al tanto de
+								todos los casos de conducta inadecuada asociada a nuestro servicio para
+								poder solucionarlos. Por eso, nuestros clientes y personal externo tienen
+								los mismos derechos que los Daters, para notificar problemas. Además,
+								contamos con un equipo especializado que se encarga de investigar posibles
+								infracciones para tomar las medidas oportunas según corresponda a cada caso.</p>
+						</div>
+					</div>
+					<div class="col-6 valores-iconos d-none d-md-block" data-aos="fade-left" data-aos-delay="100" data-aos-offset="-100">
+						<div class="contenedor-logos position-relative">
+							<img class="img-fluid" src="./assets/images/adn/logos.webp">
+							<img class="base mb-3 efecto-brillo" id="base-1" src="./assets/images/bases/01.png">
+							<img class="base mb-3" id="base-2" src="./assets/images/bases/02.png">
+							<img class="base mb-3" id="base-3" src="./assets/images/bases/03.png">
+							<img class="base mb-3" id="base-4" src="./assets/images/bases/04.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-mensaje position-relative d-flex justify-content-center align-items-center">
+			<img class="imagen-fondo w-100" src="./assets/images/banner-mensaje.webp">
+			<p data-aos="zoom-in ft-25" data-aos-delay="100" data-aos-offset="-500">Velamos por un ambiente de trabajo libre de violencia laboral, mobbing y acoso sexual a
+				través de nuestros procedimientos de actuación en coordinación con las Instituciones
+				especializadas.</p>
+		</section>
+		<section class="section-ambiente position-relative">
+			<img class="imagen-fondo w-100" src="./assets/images/banner-ambiente.webp">
+			<div class="container">
+				<div class="row">
+					<div class="offset-md-6 col-md-6 position-relative" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-200">
+						<div class="blurry-background w-100">
+							<div class="accordion w-100"> 
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#valor-1">
+											<span>Alianzas para un Medio Ambiente Sostenible</span>
+										</button>
+									</h2>
+									<div id="valor-1" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<p class="ft-16 fw-500">Gestionamos responsablemente el impacto medioambiental
+												de nuestras operaciones, en sinergia con empresas habilitadas para la 
+												recolección, tratamiento y disposición final correcta de los residuos, 
+												aparatos eléctricos y electrónicos.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#valor-2">
+											<span>Promoviendo el Reciclaje Responsable</span>
+										</button>
+									</h2>
+									<div id="valor-2" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<p class="ft-16 fw-500">Fomentamos la conducta responsable en nuestros Daters con el Programa de
+												Reciclaje, generando el hábito de depositar cada residuo en el contenedor
+												específico para él.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#valor-3">
+											<span>Reciclando para un Mundo Mejor</span>
+										</button>
+									</h2>
+									<div id="valor-3" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<p class="ft-16 fw-500">Con el reciclaje de papeles y cartones cuidamos el medio ambiente, evitamos más
+												talas de árboles, se evitan emisiones de CO2, logramos ahorrar litros de agua,
+												etc.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#valor-4">
+											<span>Fomentando Conciencia Digital</span>
+										</button>
+									</h2>
+									<div id="valor-4" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<p class="ft-16 fw-500">Contribuimos con organizaciones para una sociedad cada vez más global y
+												digital, participando y generando espacios de concienciación sobre el uso
+												responsable y ético de la tecnología, en favor de las personas, empresas e
+												instituciones.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#valor-5">
+											<span>Incentivando el Desarrollo Profesional</span>
+										</button>
+									</h2>
+									<div id="valor-5" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<p class="ft-16 fw-500">Facilitamos el acceso al conocimiento y desarrollo de habilidades
+												técnico-profesionales a través de programas de pasantías, aprendizaje,
+												entrenamiento en el trabajo y oportunidades de primer empleo.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#valor-6">
+											<span>Reciclando por una Causa</span>
+										</button>
+									</h2>
+									<div id="valor-6" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<p class="ft-16 fw-500">La retribución económica por kilogramo de material reciclado es destinada
+												en su totalidad, al sostenimiento de los proyectos socioeducativos.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#valor-7">
+											<span>Certificados</span>
+										</button>
+									</h2>
+									<div id="valor-7" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<div class="row d-flex align-items-center">
+												<a class="galeria col-3" href="./assets/images/adn/certificado1.png"><img class="img-fluid" src="./assets/images/adn/certificado1.png"></a>
+												<a class="galeria col-3" href="./assets/images/adn/certificado2.png"><img class="img-fluid" src="./assets/images/adn/certificado2.png"></a>
+												<a class="galeria col-3" href="./assets/images/adn/certificado3.png"><img class="img-fluid" src="./assets/images/adn/certificado3.png"></a>
+												<a class="galeria col-3" href="./assets/images/adn/certificado4.png"><img class="img-fluid" src="./assets/images/adn/certificado4.png"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-saeca">
+			<div class="contenedor-imagen position-relative">
+				<img class="imagen-fondo w-100" src="./assets/images/saeca.webp">
+			</div>
+			<div class="container text-center">
+				<h2 data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-700">S.A.E.C.A</h2>
+				<p class="mb-4" data-aos="zoom-in" data-aos-delay="100">Ser una empresa Sociedad Anónima Emisora de Capital Abierto (S.A.E.C.A.)
+					<br>en Paraguay, implica:</p>
+				<div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+					<div class="saeca-info" data-aos="fade-right" data-aos-delay="100" data-aos-offset="-500">
+						<img class="img-fluid" src="./assets/images/saeca-1.png">
+						<div>
+							<p>Asumir una serie de compromisos y responsabilidades tanto legales como éticas.</p>
+						</div>
+					</div>
+					<div class="saeca-info" data-aos="fade-up" data-aos-delay="100" data-aos-offset="-500">
+						<img class="img-fluid" src="./assets/images/saeca-2.png">
+						<div>
+							<p>La posibilidad de emitir y negociar acciones y bonos en el mercado público.</p>
+						</div>
+					</div>
+					<div class="saeca-info" data-aos="fade-left" data-aos-delay="100" data-aos-offset="-500">
+						<img class="img-fluid" src="./assets/images/saeca-3.png">
+						<div>
+							<p>Mayor transparencia y exigencias en cuanto al cumplimiento de normas.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-informe">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-xl-6 text-end mb-5" data-aos="fade-right" data-aos-delay="100" data-aos-offset="-600">
+						<h2 class="mb-5 text-white">Conocé nuestro informe</h2>
+						<a target="_blank" href="https://www.bolsadevalores.com.py/listado-de-emisores/57" class="btn-base">Ir a la Bolsa de Valores</a>
+					</div>
+					<div class="col-lg-8 col-xl-6 position-relative" data-aos="fade-left" data-aos-delay="100" data-aos-offset="-600">
+						<img class="img-fluid" src="./assets/images/adn/informe.webp">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-adn">
+			<div class="container">
+				<div class="row pt-5 mt-5 text-center text-md-start">
+					<div class="col-md-4 imagen" data-aos="fade-right" data-aos-delay="100" data-aos-offset="-600">
+						<div class="contenedor-fondoPixel position-relative">
+							<div class="fondoPixel"></div>
+							<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+						</div>
+					</div>
+					<div class="col-md-8 info-2" data-aos="fade-left" data-aos-delay="100" data-aos-offset="-600">
+						<div class="d-flex">
+							<h2 class="mb-3 text-orange text-center text-md-start w-100">Implicancia</h2>
+							<p>Cumplimos con todas las regulaciones financieras y de mercado establecidas por las autoridades competentes, presentando informes financieros regulares, auditados y transparentes, permitiendo a los inversionistas y al público en general, evaluar la salud financiera y el desempeño de la empresa. (Ver Informes en Bolsa de Valores de Asunción).</p>
+							<p>Actuamos con integridad y ética en todas las acciones y decisiones llevando a cabo las operaciones comerciales de manera justa y transparente, evitando cualquier práctica deshonesta o engañosa.</p>
+							<p>Respetamos los derechos de los accionistas/inversionistas y garantizamos una comunicación clara y oportuna sobre el desempeño y las perspectivas de la empresa. Tomamos decisiones que beneficien a todos los accionistas/inversionistas, evitando cualquier conflicto de intereses y asegurando la protección de sus inversiones. Los accionistas/inversionistas tienen la oportunidad de participar en la toma de decisiones importantes, a través de asambleas o juntas generales.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-oficina position-relative mt-5 pt-5">
+			<div class="visita row">
+				<div class="col-6 position-relative d-none d-md-block">
+					<img class="pesonal" src="./assets/images/personal-oficina.png">
+					<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+					<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+					<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+				</div>
+				<div class="col-md-6 cta-oficina" data-aos="zoom-in" data-aos-delay="300" data-aos-offset="-900">
+					<h2>Visitá algunos de nuestros espacios de trabajo</h2>
+					<p>Gracias a los gemelos digitales disponibles, que representan a espacios y objetos
+						existentes en la vida real, puedes realizar un recorrido virtual a través del
+						avatar.</p>
+					<a target="_blank" href="https://www.spatial.io/s/DataSystemss-Metaverse-63930f8244be1c0001cdaa41?share=7668821668608931057">Descubrir</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row position-relative d-block d-md-none mt-4">
+					<div class="col-12 ">
+						<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+						<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+						<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+						<img class="pesonal" src="./assets/images/personal-oficina.png">
+						<img class="invisible" src="./assets/images/personal-oficina.png">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="contenedor-oficina mx-xl-3">
+					<div class="row">
+						<div class="col-xl-6 mb-3">
+							<div class="mx-2 firts">
+								<h3 class="fw-700 mb-4">¿Listo para empezar?</h3>
+								<p>Contactá con nuestro equipo de expertos para encontrar la solución que más se adapte a tus necesidades.</p>
+								<a class="btn-naranja" href="contacto.html">Contactános</a>
+							</div>
+						</div>
+						<!--<div class="col-md-6 col-xl-3 mb-3">
+							<div class="mx-2">
+								<h4 class="text-center fw-700 mb-3">Soluciones</h4>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-candado.svg"> Infraestructura</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Impresión</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Open Sourse</p>
+							</div>
+						</div>-->
+						<div class="col-md-6 col-xl-4 mb-4 espacio">
+							<div class="mx-2">
+								<p class="fw-500 mb-4">Suscribite a nuestro Newsletter para enterearte de las novedades.</p>
+								<form class="subscripcion row mb-4" action="#" method="post">
+									<input class="mb-4" id="email" name="email"  type="email" placeholder="Tu E-mail" required/>
+									<div class="position-relative">
+										<img class="enviar-imagen" src="./assets/images/avion.png">
+										<button type="submit" class="btn-blanco">Suscribirse</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-contacto position-relative">
+			<div class="imagenDeFondo fondo-2 top"></div>
+			<div class="container">
+				<div class="banner-info">
+					<h1 class="mb-5">Soluciones <span class="text-orange">tecnológicas integrales</span> e innovadoras</h1>
+					<p class="mb-4">Confíe en profesionales con experiencia y conocimientos especializados para llevar a cabo proyectos tecnológicos en su empresa. Asegurará su inversión, resultados óptimos, una implementación eficaz y una solución a la medida de sus necesidades.</p>
+					<a href="contacto.html" class="btn-base text-center ft-12">HABLÁ CON UNO<br>DE NUESTROS EXPERTOS</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="pie-de-pagina">
+		<div class="footer">
+			<div class="container">
+				<div class="d-flex flex-column flex-lg-row align-items-center pt-5">
+					<div class="redes">
+						<img src="./assets/images/logo-footer.png">
+						<ul class="ps-0 pt-4">
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/mapa.svg">
+									<span class="ps-3">Av. Perú 1005</span>
+								</a>
+                            </li>
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/tel.svg">
+									<span class="ps-3">+595 21 213 347</span>
+								</a>
+                            </li>
+							<li>
+								<a href="#" target="_blank" class="d-flex">
+									<img src="./assets/images/horario.svg">
+									<div class="d-flex flex-column ps-3">
+										<span>Horario de atención:</span>
+										<span>Lun a Vie de 08 a 18hs</span>
+										<span>Sáb de 09 a 12hs</span>
+									</div>
+								</a>
+                            </li>
+                        </ul>
+					</div>
+					<div class="d-flex flex-colum justify-content-end align-content-center w-100">
+						<div class="row d-flex justify-content-center">
+							<div class="offset-xl-1 col-lg-6">
+								<h5 class="text-center">Soluciones</h5>
+								<div class="row">
+									<div class="col">
+											<ul class="list-unstyled">
+												<li><a href="soluciones.html#sol-1">Impresión y escaneo.</a></li>
+												<li><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+												<li><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+												<li><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+											</ul>
+									</div>
+									<div class="col">
+										<ul class="list-unstyled">
+											<li><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+											<li><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+											<li><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+											<li><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h5>Recursos</h5>
+								<ul class="list-unstyled">
+									<li><a href="recursos.html">Recursos disponibles</a></li>
+									<li><a href="eventos.html">Eventos y Noticias</a></li>
+									<li><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+								</ul>
+							</div>
+							<div class="col">
+								<h5>Sobre Nosotros</h5>
+								<ul class="list-unstyled">
+									<li><a href="empresa.html">La Empresa</a></li>
+									<!-- <li><a href="politica.html">Políticas de Calidad</a></li> -->
+									<li><a href="nosotros.html">Comó vemos el mundo</a></li>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="adn.html">Adn</a></li>
+									<li><a href="inversionistas.html">Inversionistas</a></li>
+									<li><a href="alianzas.html">Alianzas</a></li>
+								</ul>
+							</div>
+						</div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom">
+			<div class="container d-none d-sm-flex">
+				<p>Datasystems SAECA 2024</p>
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<a href="https://twitter.com/datasystemspy" target="_blank"><img src="./assets/images/x-footer.png"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/datasystemspy/" target="_blank"><img src="./assets/images/instagram.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mt-4" href="https://www.linkedin.com/company/datasystemspy" target="_blank"><img src="./assets/images/linkedin.png"></a>
+				</li>
+				<li class="list-inline-item me-4">
+					<a href="https://www.youtube.com/@datasystemspy" target="_blank"><img src="./assets/images/Youtube.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/iso.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/whatsapp.svg"></a>
+				</li>
+			</ul>
+			<div class="container d-flex d-sm-none text-center">
+				<p class="w-100">Datasystems SAECA 2024</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+		integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/efecto_valores.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
