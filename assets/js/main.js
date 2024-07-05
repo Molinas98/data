@@ -427,6 +427,7 @@ $('.carrusel-servicios').slick({
     }
   });
 
+
   $('.popup-video').magnificPopup({
     type: 'iframe',
     mainClass: 'mfp-fade',

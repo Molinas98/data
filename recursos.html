@@ -171,6 +171,76 @@
 		</div>
 	</header>
 	<main>
+		<div class="modales-soluciones">
+			<div class="modal-producto collapse" id="e1">
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="e1">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center mb-4">Estás a un paso de descargar el E-book</h2>
+					<div class="productos-imagenes row mx-1 align-items-start">
+						<form class="row form-contacto" action="contacto.php" method="post">
+							<fieldset class="mb-3 col-md-6">
+								<label for="nombre">Nombre y Apellido <span class="text-danger">*</span></label>
+								<input type="text" class="form-control" name="nombre" id="nombre" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-6">
+								<label for="email">Email <span class="text-danger">*</span></label>
+								<input type="email" class="form-control" name="email" id="email" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-6">
+								<label for="telefono">Teléfono <span class="text-danger">*</span></label>
+								<input type="cel" class="form-control" name="telefono" id="telefono" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-6">
+								<label for="empresa">Empresa <span class="text-danger">*</span></label>
+								<input type="text" class="form-control" name="empresa" id="empresa" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-12">
+								<label for="mensaje">Mensaje</label>
+								<textarea  class="form-control" id="mensaje" name="mensaje"></textarea>
+							</fieldset>
+							<fieldset class="d-flex justify-content-center col-12 mt-4">
+								<button type="submit" class="btn-base-2">Descargar</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="modal-producto collapse" id="e2">
+				<div class="contenido-producto">
+					<span class="producto-cerrar" data-div="e2">X</span>
+					<p class="invisible">.<br></p>
+					<h2 class="text-center mb-4">Estás a un paso de descargar el E-book</h2>
+					<div class="productos-imagenes row mx-1 align-items-start">
+						<form class="row form-contacto" action="contacto.php" method="post">
+							<fieldset class="mb-3 col-md-6">
+								<label for="nombre">Nombre y Apellido <span class="text-danger">*</span></label>
+								<input type="text" class="form-control" name="nombre" id="nombre" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-6">
+								<label for="email">Email <span class="text-danger">*</span></label>
+								<input type="email" class="form-control" name="email" id="email" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-6">
+								<label for="telefono">Teléfono <span class="text-danger">*</span></label>
+								<input type="cel" class="form-control" name="telefono" id="telefono" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-6">
+								<label for="empresa">Empresa <span class="text-danger">*</span></label>
+								<input type="text" class="form-control" name="empresa" id="empresa" required>
+							</fieldset>
+							<fieldset class="mb-3 col-md-12">
+								<label for="mensaje">Mensaje</label>
+								<textarea  class="form-control" id="mensaje" name="mensaje"></textarea>
+							</fieldset>
+							<fieldset class="d-flex justify-content-center col-12 mt-4">
+								<button type="submit" class="btn-base-2">Descargar</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 		<section class="section-banner position-relative">
 			<div class="imagenDeFondo-3 fondo-4 bottom"></div>
 			<div class="d-flex justify-content-center align-items-center">
@@ -329,24 +399,24 @@
 						<input id="buscador" class="form-control" type="search" placeholder="Buscar..." required />
 					</form> -->
 					<div class="col-lg-6">
-						<a href="eventos.html">
+						<a class="btn-producto"  data-div="e1">
 							<div class="contenedor-recurso">
 								<div class="mx-1">
 									<div class="border">
-										<img class="img-fluid w-100" src="./assets/images/recursos/libreria/05.png">
+										<img class="img-fluid w-100" src="./assets/images/recursos/libreria/01.png">
 									</div>
 								</div>
 								<div class="ms-3 mt-2">
-									<span class="target bg-azul">Blog</span>
-									<p class="mt-3">Lorem ipsum dolor sit amet, consectetur 
-										adipiscing elit. Aliquam dictum.
-									</p>
+									<span class="target bg-azul">E-book</span>
+									<p class="mt-3">Contenedores y Kubernetes, los beneficios
+										que aportan y los problemas que
+										resuelven.</p>
 								</div>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-6">
-						<a class="popup-video" href="./assets/images/muetra.mp4">
+						<a class="btn-producto"  data-div="e2">
 							<div class="contenedor-recurso">
 								<div class="mx-1">
 									<div class="border">
@@ -354,10 +424,8 @@
 									</div>
 								</div>
 								<div class="ms-3 mt-2">
-									<span class="target bg-violeta">Video</span>
-									<p class="mt-3">Lorem ipsum dolor sit amet, consectetur 
-										adipiscing elit. Aliquam dictum. Aliquam dictum.
-									</p>
+									<span class="target bg-azul">E-book</span>
+									<p class="mt-3">Tecnologías de realidad aumentada, realidad virtual inmersiva y la inteligencia artificial.</p>
 								</div>
 							</div>
 						</a>
