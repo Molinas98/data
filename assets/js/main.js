@@ -97,6 +97,20 @@ $('.nav-responsive').click(function() {
   $(this).find('.ico-row').toggleClass('rotate');
 });
 
+if ($(window).width() < 576) {
+  $('.modal-producto').addClass('caso2');
+} else {
+  $('.modal-producto').removeClass('caso2');
+}
+
+$(window).on('resize', function() {
+  if ($(window).width() < 576) { // 576px es el breakpoint de 'sm' en Bootstrap
+      $('.modal-producto').addClass('caso2');
+  } else {
+      $('.modal-producto').removeClass('caso2');
+  }
+});
+
 $('.carrusel-partners').slick({
   dots: false,
   infinite: true,
