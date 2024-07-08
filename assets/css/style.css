@@ -3836,7 +3836,7 @@ footer .list-unstyled li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #f9f9f9;
 }
 
 @media (max-width: 1400px) {
@@ -4028,10 +4028,6 @@ footer .list-unstyled li{
         margin: 0 auto;
     }
 
-    .contenedor-oficina {
-        margin-top: -50px;
-    }
-
     .section-adn  .container .row .info div {
         max-width: 100%;
     }
@@ -4211,6 +4207,10 @@ footer .list-unstyled li{
     .menu-info li {
         padding-inline: 20px;
         height: 70px;
+    }
+
+    .contenedor-oficina {
+        margin-top: 0px;
     }
 }
 
@@ -4420,6 +4420,11 @@ footer .list-unstyled li{
     .arrow-proceso3, .arrow-data1, .arrow-data2  {
         display: none;
     } 
+
+    .section-oficina .pesonal{
+        top: 0px;
+    }
+
 } 
 
 @media (min-width: 800px) and (max-width: 992px) {
