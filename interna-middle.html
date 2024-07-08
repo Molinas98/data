@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Datasystems - Eventos</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--CSS-->
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="./assets/images/logo.ico">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/magnific-popup.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-xl index">
+			<div class="container">
+				<a class="navbar-brand logo me-0" href="index.html">
+					<img src="./assets/images/empresa-2.png" alt="logo empresa">
+				</a>
+				<a class="nav-link me-0 op-menu  d-flex d-xl-none" data-toggle="collapse" data-target="#m-menu" aria-expanded="false">
+					<img class="icono-nav" src="./assets/images/opciones.svg">
+				</a>
+				<div class="justify-content-center d-none d-xl-flex" tabindex="-1" id="navbarMenu">
+					<ul class="navbar-nav ml-auto justify-content-start justify-content-lg-between align-items-center w-100">
+						<div class="d-flex  flex-column flex-lg-row  align-items-center">
+							<a class="nav-link me-0" href="/">
+								<li class="nav-item">Inicio</li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-soluciones" aria-expanded="false">
+								<li class="nav-item">Soluciones<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-nosotros" aria-expanded="false">
+								<li class="nav-item">Sobre Nosotros<img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-recursos" aria-expanded="false">
+								<li class="nav-item">Recursos <img class="ms-1" src="./assets/images/iconos/arrow-black.png"></li>
+							</a>
+							<a href="contacto.html">
+								<div class="ss">
+									<div class="borde-svg">En Contacto</div>
+								</div>
+							</a>
+							<a href="/" class="ms-1">
+								<div class="acceso">
+									<div class="borde-svg btn-acceso">Portal del cliente</div>
+								</div>
+							</a>
+							<!-- <a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-spain.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/iconos/id-english.svg">
+							</a> -->
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/x-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/instagran-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/linkedin.svg">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/f-gris.png">
+							</a>
+							<a href="/" class="nav-link me-0 nav-iconos">
+								<img src="./assets/images/youtube-gris.png">
+							</a>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="sub-menu collapse" id="m-soluciones">
+			<div class="links">
+				<a class="dropdown-item" href="soluciones.html#sol-1">Impresión y escaneo</a>
+				<a class="dropdown-item" href="soluciones.html#sol-2">Gestión Documental y Digitalización</a>
+				<a class="dropdown-item" href="soluciones.html#sol-3">Desarrollo de software</a>
+				<a class="dropdown-item" href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a>
+				<a class="dropdown-item" href="soluciones.html#sol-5">Integración, Automatización y Nube</a>
+				<a class="dropdown-item" href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a>
+				<a class="dropdown-item" href="soluciones.html#sol-7">Trabajo Colaborativo</a>
+				<a class="dropdown-item mb-3" href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-nosotros">
+			<div class="links">
+				<a class="dropdown-item" href="empresa.html">La empresa</a>
+				<a class="dropdown-item" href="nosotros.html">Comó vemos el mundo</a>
+				<!-- <a class="dropdown-item" href="politica.html">Politicas de calidad</a> -->
+				<a class="dropdown-item" href="historia.html">Historia</a>
+				<a class="dropdown-item" href="adn.html">Adn</a>
+				<a class="dropdown-item" href="inversionistas.html">Inversionistas</a>
+				<a class="dropdown-item mb-3" href="alianzas.html">Alianzas</a>
+				<div class="contenedor-fondoPixel position-relative pixel-header">
+					<div class="fondoPixel"></div>
+					<img class="logo-pixel" src="./assets/images/logo-pixel.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-menu collapse" id="m-recursos">
+			<div class="links">
+				<a class="dropdown-item" href="recursos.html">Recursos disponibles</a>
+				<a class="dropdown-item" href="eventos.html">Eventos y Noticias</a>
+				<a class="dropdown-item mb-3" href="apartado_tecnico.html">Apartado Técnico</a>
+			</div>
+		</div>
+		<div class="sub-menu collapse w-100" id="m-menu">
+				<ul class="nav flex-column">
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Soluciones</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Cómo vemos el mundo</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="empresa.html">La empresa</a></li>
+							<li class="op-submenu"><a href="nosotros.html">Comó vemos el mundo</a></li>
+							<!-- <li class="op-submenu"><a href="politica.html">Politicas de calidad</a></li> -->
+							<li class="op-submenu"><a href="historia.html">Historia</a></li>
+							<li class="op-submenu"><a href="adn.html">Adn</a></li>
+							<li class="op-submenu"><a href="inversionistas.html">Inversionistas</a></li>
+							<li class="op-submenu"><a href="alianzas.html">Alianzas</a></li>
+						</ul>
+					<li class="nav-item-responsive">
+						<div class="nav-responsive">
+							<span class="m-responsive">Recursos</span>
+							<span><img class="m-responsive ico-row" src="./assets/images/iconos/arrow-black.png"></span>
+						</div>
+						<ul class="submenu">
+							<li class="op-submenu"><a href="recursos.html">Recursos disponibles</a></li>
+							<li class="op-submenu"><a href="eventos.html">Eventos y Noticias</a></li>
+							<li class="op-submenu"><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-responsive">
+						<a href="contacto.html" class="m-responsive text-black">En Contacto</a>
+					</li>
+					<li class="nav-item-responsive pb-3">
+						<a href="/" class="m-responsive text-black">Portal del Cliente</a>
+					</li>
+				</ul>
+		</div>
+	</header>
+	<main>
+		<section class="section-interna-eventos fondopixel">
+			<div class="container" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-200">
+				<div class="row">
+					<div class="col-lg-5 mb-3">
+						<div class="mx-1">
+							<img class="img-fluid w-100" src="./assets/images/eventos/middle1.jpeg">
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="mx-2 mx-lg-0 ms-lg-4">
+							<p class="fecha">2021-10-25</p>
+							<h3>¿QUÉ ES EL MIDDLEWARE Y CÓMO FUNCIONA?</h3>
+							<br>
+							<p><strong>¿Dónde nace el problema?</strong></p>
+							<br>
+							<p>Para satisfacer estas necesidades, las empresas tienen que usar muchos productos de hardware y software diferentes. La mayoría de estos hardware y software fueron diseñados por separado. No fueron necesariamente construidos para trabajar juntos. Al mismo tiempo, las organizaciones necesitan estos diferentes hardware y software para trabajar juntos a fin de hacer que los procesos digitales sean más eficientes. El problema es, ¿Cómo hacer que funcionen armoniosamente cuando no fueron diseñados para trabajar juntos?</p>
+							<br>
+							<p><strong>¿De qué se trata?</strong></p>
+							<br>
+							<p>Por lo general, hay dos niveles en cualquier dispositivo. El primero es el sistema operativo, que es el software de bajo nivel cuya función principal es administrar los recursos del dispositivo y controlar las funciones básicas del dispositivo. El segundo nivel son las aplicaciones que están destinadas a ejecutarse sobre el sistema operativo. Estas aplicaciones amplían las funciones del dispositivo más allá de lo que ofrece el sistema operativo. Middleware se refiere a cualquier software detrás de escena que permita que estos dos niveles se comuniquen e interactúen entre sí. Por ejemplo, el middleware se ubicará entre Windows 10 y una suite de productividad de oficina. Además del sistema operativo y las aplicaciones, el middleware también ayuda a separar los procesos, las aplicaciones y los componentes de software para intercambiar información dentro del mismo dispositivo o entre múltiples dispositivos. Puede comparar el middleware con un traductor que ayude a las personas que hablan diferentes idiomas a entenderse.</p>
+							<br>
+							<p>En este caso, el middleware facilita la interoperabilidad entre aplicaciones que se ejecutan en diferentes marcos. Middleware hace esto al proporcionar un medio estándar de intercambio de datos. De esta manera, las dos aplicaciones pueden conectarse sin tener que comunicarse directamente. El middleware también se conoce como «pegamento de software», ya que ayuda a «pegar» diferentes programas para que puedan trabajar juntos. El término middleware es un poco vago, ya que no se refiere a un tipo específico de software. En cambio, se refiere a cualquier software que se encuentra entre dos aplicaciones separadas y las vincula. Middleware incluye software como sistemas de gestión de contenidos, servidores de aplicaciones, servidores web y otras herramientas similares que apoyan el desarrollo y la entrega de aplicaciones.
+Middleware comenzó a popularizarse en los años 80 como una solución para permitir que las aplicaciones más nuevas funcionen en sistemas más antiguos. Para permitir la comunicación entre diferentes aplicaciones, el middleware utiliza diferentes marcos de comunicación, como la transferencia de estado representacional (REST), servicios web, notación de objetos JavaScript (JSON), protocolo simple de acceso a objetos (SOAP), etc. La infraestructura de integración moderna, como el bus de servicios empresariales (ESB) y el software de administración de API también dependen de conceptos de middleware.</p>
+<br>
+<p><strong>¿Cómo funciona?</strong></p>
+<br>
+<p>Hoy, las empresas confían mucho en las aplicaciones de red que involucran sistemas empresariales y de bases de datos. Estas aplicaciones de red necesitan realizar muchas funciones diferentes, como actualizar pedidos, enviar mensajes a los clientes, facilitar pagos, permitir a los clientes rastrear envíos, etc. Todas estas funciones requieren la transferencia de datos en tiempo real entre diferentes dispositivos. Además, diferentes dispositivos con potencia de procesamiento variable, capacidades de ancho de banda y capacidades de pantalla y visualización necesitan acceder a la red. El middleware interviene para proporcionar un medio unificado para que todos estos sistemas se comuniquen e interactúen entre sí. Para hacer esto, una gran cantidad de middleware es un lenguaje cruzado, lo que significa que es capaz de comprender y procesar varios lenguajes operativos diferentes, como Ruby on Rails, Java, C ++, PHP, etc. Además de permitir la comunicación entre sistemas fundamentalmente diferentes, el middleware también realiza varias otras funciones.</p>
+<br>
+<p><strong>Importancia del Middleware</strong></p>
+<br>
+<p>Si su empresa depende mucho de los datos, puede considerar implementar middleware para poder integrar los datos en varias aplicaciones y sistemas. La integración hace que el flujo de datos a través de las diversas aplicaciones sea mucho más fácil y le permite a su empresa enfocarse en otros aspectos importantes de su negocio, ya que ya no tiene que perder tiempo en procesos manuales.</p>
+<br>
+<p><strong>Ejemplo de un Middleware común</strong></p>
+<br>
+<p><strong>Plataforma de aplicaciones de Red Hat JBoss Enterprise</strong></p>
+<p>Esta es una tecnología de middleware potente y versátil desarrollada por Red Hat Software. Este middleware tiene una base arquitectónica sólida, con requisitos de memoria muy bajos y tiempos de inicio muy rápidos. Red Hat JBoss Enterprise Application Platform también ofrece integración con herramientas DevOps como Arquillian , Jenkins y Maven . El middleware viene con un «centro de migración» que hace que sea muy fácil mover aplicaciones existentes a esta plataforma. También proporciona una solución compatible con la nube para aquellos que desean que sus empresas sean más ágiles.</p>
+<br>
+<p><strong>Conclusión</strong></p>
+<br>
+<p>El entorno empresarial se ha vuelto muy dinámico, creando la necesidad de que las organizaciones integren aplicaciones previamente independientes y creen sistemas de información para toda la empresa. Esta integración generalmente implica hacer que las aplicaciones más nuevas funcionen en armonía con las aplicaciones heredadas más antiguas. Middleware hace posible que estas diferentes aplicaciones trabajen juntas sin la necesidad de actualizar el software anterior, lo que sería muy costoso. Además, en el entorno empresarial altamente competitivo de hoy, el middleware permite que las empresas desarrollen y traigan nuevas soluciones al mercado mucho más rápido. Al elegir una solución de middleware, debe tomar la decisión en función de los requisitos de su organización y el tipo de infraestructura utilizada por su organización.</p>
+<br>
+<p>Es por ello que en Datasystems contamos con un nivel de consultoría altamente profesional, siendo capaces de implementar soluciones ajustadas a la envergadura de cada organización. Si desea conocer mas sobres estas soluciones contáctenos a esta dirección: Datasystems.</p>
+<br>
+<p>Fuente:  Host Dime Blog</p>
+							
+<br>
+<p>Contáctenos si considera que la infraestructura de su organización debe dar un paso hacia la automatización.</p>
+							<!--<a class="btn-base-2 mt-3" target="_blank" href="https://www.itaipu.gov.br/es/sala-de-prensa/noticia/itaipu-instala-nueva-estacion-meteorologica-de-ultima-generacion-en-su-aerodr">LEER NOTA COMPLETA</a>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-oficina position-relative">
+			<div class="visita row">
+				<div class="col-6 position-relative d-none d-md-block">
+					<img class="pesonal" src="./assets/images/personal-oficina.png">
+					<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+					<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+					<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+				</div>
+				<div class="col-md-6 cta-oficina" data-aos="zoom-in" data-aos-delay="300" data-aos-offset="-900">
+					<h2>Visitá algunos de nuestros espacios de trabajo</h2>
+					<p>Gracias a los gemelos digitales disponibles, que representan a espacios y objetos
+						existentes en la vida real, puedes realizar un recorrido virtual a través del
+						avatar.</p>
+					<a target="_blank" href="https://www.spatial.io/s/DataSystemss-Metaverse-63930f8244be1c0001cdaa41?share=7668821668608931057">Descubrir</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row position-relative d-block d-md-none mt-4">
+					<div class="col-12 ">
+						<img class="herramienta-flotante hr1" src="./assets/images/iconos/herramientas.png">
+						<img class="herramienta-flotante hr2" src="./assets/images/iconos/herramientas-2.png">
+						<img class="herramienta-flotante hr3" src="./assets/images/iconos/herramientas-3.png">
+						<img class="pesonal" src="./assets/images/personal-oficina.png">
+						<img class="invisible" src="./assets/images/personal-oficina.png">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="contenedor-oficina mx-xl-3">
+					<div class="row">
+						<div class="col-xl-6 mb-3">
+							<div class="mx-2 firts">
+								<h3 class="fw-700 mb-4">¿Listo para empezar?</h3>
+								<p>Contactá con nuestro equipo de expertos para encontrar la solución que más se adapte a tus necesidades.</p>
+								<a class="btn-naranja" href="contacto.html">Contactános</a>
+							</div>
+						</div>
+						<!--<div class="col-md-6 col-xl-3 mb-3">
+							<div class="mx-2">
+								<h4 class="text-center fw-700 mb-3">Soluciones</h4>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-candado.svg"> Infraestructura</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Impresión</p>
+								<p class="fw-700"><img class="me-2" src="./assets/images/iconos/icon-casos.svg"> Open Sourse</p>
+							</div>
+						</div>-->
+						<div class="col-md-6 col-xl-4 mb-4 espacio">
+							<div class="mx-2">
+								<p class="fw-500 mb-4">Suscribite a nuestro Newsletter para enterearte de las novedades.</p>
+								<form class="subscripcion row mb-4" action="#" method="post">
+									<input class="mb-4" id="email" name="email"  type="email" placeholder="Tu E-mail" required/>
+									<div class="position-relative">
+										<img class="enviar-imagen" src="./assets/images/avion.png">
+										<button type="submit" class="btn-blanco">Suscribirse</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-contacto position-relative">
+			<div class="imagenDeFondo fondo-2 top"></div>
+			<div class="container">
+				<div class="banner-info">
+					<h1 class="mb-5">Soluciones <span class="text-orange">tecnológicas integrales</span> e innovadoras</h1>
+					<p class="mb-4">Confíe en profesionales con experiencia y conocimientos especializados para llevar a cabo proyectos tecnológicos en su empresa. Asegurará su inversión, resultados óptimos, una implementación eficaz y una solución a la medida de sus necesidades.</p>
+					<a href="contacto.html" class="btn-base text-center ft-12">HABLÁ CON UNO<br>DE NUESTROS EXPERTOS</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="pie-de-pagina">
+		<div class="footer">
+			<div class="container">
+				<div class="d-flex flex-column flex-lg-row align-items-center pt-5">
+					<div class="redes">
+						<img src="./assets/images/logo-footer.png">
+						<ul class="ps-0 pt-4">
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/mapa.svg">
+									<span class="ps-3">Av. Perú 1005</span>
+								</a>
+                            </li>
+                            <li>
+								<a href="#" target="_blank">
+									<img src="./assets/images/tel.svg">
+									<span class="ps-3">+595 21 213 347</span>
+								</a>
+                            </li>
+							<li>
+								<a href="#" target="_blank" class="d-flex">
+									<img src="./assets/images/horario.svg">
+									<div class="d-flex flex-column ps-3">
+										<span>Horario de atención:</span>
+										<span>Lun a Vie de 08 a 18hs</span>
+										<span>Sáb de 09 a 12hs</span>
+									</div>
+								</a>
+                            </li>
+                        </ul>
+					</div>
+					<div class="d-flex flex-colum justify-content-end align-content-center w-100">
+						<div class="row d-flex justify-content-center">
+							<div class="offset-xl-1 col-lg-6">
+								<h5 class="text-center">Soluciones</h5>
+								<div class="row">
+									<div class="col">
+											<ul class="list-unstyled">
+												<li><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
+												<li><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+												<li><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
+												<li><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
+											</ul>
+									</div>
+									<div class="col">
+										<ul class="list-unstyled">
+											<li><a href="soluciones.html#sol-7">Trabajo Colaborativo</a></li>
+											<li><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
+											<li><a href="soluciones.html#sol-6">Mapeo, Reconocimiento y Análisis Geoespacial</a></li>
+											<li><a href="soluciones.html#sol-8">Desarrollo de Experiencia Virtual</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h5>Recursos</h5>
+								<ul class="list-unstyled">
+									<li><a href="recursos.html">Recursos disponibles</a></li>
+									<li><a href="eventos.html">Eventos y Noticias</a></li>
+									<li><a href="apartado_tecnico.html">Apartado Técnico</a></li>
+								</ul>
+							</div>
+							<div class="col">
+								<h5>Sobre Nosotros</h5>
+								<ul class="list-unstyled">
+									<li><a href="empresa.html">La Empresa</a></li>
+									<!-- <li><a href="politica.html">Políticas de Calidad</a></li> -->
+									<li><a href="nosotros.html">Comó vemos el mundo</a></li>
+									<li><a href="historia.html">Historia</a></li>
+									<li><a href="adn.html">Adn</a></li>
+									<li><a href="inversionistas.html">Inversionistas</a></li>
+									<li><a href="alianzas.html">Alianzas</a></li>
+								</ul>
+							</div>
+						</div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom">
+			<div class="container d-none d-sm-flex">
+				<p>Datasystems SAECA 2024</p>
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<a href="https://twitter.com/datasystemspy" target="_blank"><img src="./assets/images/x-footer.png"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/datasystemspy/" target="_blank"><img src="./assets/images/instagram.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mt-4" href="https://www.linkedin.com/company/datasystemspy" target="_blank"><img src="./assets/images/linkedin.png"></a>
+				</li>
+				<li class="list-inline-item me-4">
+					<a href="https://www.youtube.com/@datasystemspy" target="_blank"><img src="./assets/images/Youtube.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/iso.svg"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#" target="_blank"><img src="./assets/images/whatsapp.svg"></a>
+				</li>
+			</ul>
+			<div class="container d-flex d-sm-none text-center">
+				<p class="w-100">Datasystems SAECA 2024</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+		integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.js"></script>
+	<script src="./assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

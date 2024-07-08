@@ -3826,6 +3826,19 @@ footer .list-unstyled li{
     max-width: 280px;
 }
 
+#loader {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
 @media (max-width: 1400px) {
     .explorar-info {
         margin-top: 340px;
