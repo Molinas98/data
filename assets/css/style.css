@@ -1475,7 +1475,7 @@ footer .list-unstyled li{
 
 .herramienta-flotante {
     position: absolute;
-    z-index: 0;
+    z-index: 1;
 }
 
 .hr1 {
