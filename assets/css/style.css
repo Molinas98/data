@@ -3106,6 +3106,10 @@ footer .list-unstyled li{
     padding-top: 24px;
 }
 
+.contenedor-recurso .contenido {
+    width: 60%;
+}
+
 .section-libreria {
     padding-bottom: 150px;
 }
