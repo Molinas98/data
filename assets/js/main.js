@@ -452,9 +452,9 @@ $('.carrusel-servicios').slick({
       $('.imagenDeFondo-4').each(function() {
         efecto_pixel_4($(this));
       });
-      $('.contenedor-fondoPixel').each(function() {
-        efecto_pixel_5($(this));
-      });
+    });
+    $('.contenedor-fondoPixel').each(function() {
+      efecto_pixel_5($(this));
     });
   }
 
@@ -489,11 +489,11 @@ $('.carrusel-servicios').slick({
     $('.imagenDeFondo-5').each(function() {
       efecto_pixel_4($(this));
     });
-  
-    $('.contenedor-fondoPixel').each(function() {
-      efecto_pixel_5($(this));
-    });
   }
+
+  $('.contenedor-fondoPixel').each(function() {
+    efecto_pixel_5($(this));
+  });
 });
 
 $(window).scroll(function() {
