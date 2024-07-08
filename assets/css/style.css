@@ -4436,6 +4436,13 @@ footer .list-unstyled li{
 
 
 @media (max-width: 576px) {
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    
     .footer-bottom {
         display: flex;
         flex-direction: column;
