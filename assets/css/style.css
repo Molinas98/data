@@ -4439,7 +4439,7 @@ footer .list-unstyled li{
 
     [data-aos] {
         opacity: 1 !important;
-        transform: none !important;
+        transform: none;
         transition: none !important;
     }
     
