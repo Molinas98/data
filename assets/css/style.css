@@ -220,7 +220,7 @@ nav {
     z-index: 100;
 }
 
-#m-menu .nav-item-responsive{
+#m-menu .nav-item-responsive {
     padding-inline: 15px;
 }
 
@@ -401,7 +401,6 @@ main {
 }
 
 .links a {
-
     font-size: 15px;
 }
 
@@ -4219,6 +4218,23 @@ footer .list-unstyled li{
 }
 
 @media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .logo img {
+        width: 200px;
+    }
+
+    #navbarMenu ul a{
+        margin: 0 0.5rem;
+        transition: 0.2s ease-in-out;
+        position: relative;
+        color: var(--black);
+    }
+
+    .ss {
+        margin-left: 0.5vw;
+    }
 }
 
 @media (max-width: 1300px) {
