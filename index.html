@@ -26,6 +26,14 @@
             <source src="./assets/images/inicio.mp4" type="video/mp4">
         </video>
     </div> -->
+	<div class="mensaje-exito collapse">
+		<div class="contenedor-mensaje">
+			<img src="./assets/images/iconos/exito.png">
+			<p class="text-center mb-2 fw-700">¡Éxito!</p>
+			<p class="text-center mx-4 mb-3">Bienvenido a nuestro Newsletter</p>
+			<a type="submit" class="btn-base-3" onclick="cerrar_mensaje()">Aceptar</a>
+		</div>
+	</div>
 	<div id="loader">
 		<div class="contenedor-fondoPixel position-relative">
 			<div class="fondoPixel"></div>
@@ -44,7 +52,7 @@
 				<div class="justify-content-center d-none d-xl-flex" tabindex="-1" id="navbarMenu">
 					<ul class="navbar-nav ml-auto justify-content-start justify-content-lg-between align-items-center w-100">
 						<div class="d-flex  flex-column flex-lg-row  align-items-center">
-							<a class="nav-link me-0" href="/">
+							<a class="nav-link me-0" href="index.html">
 								<li class="nav-item">Inicio</li>
 							</a>
 							<a class="nav-link me-0 op-menu" data-toggle="collapse" data-target="#m-soluciones" aria-expanded="false">
@@ -61,30 +69,30 @@
 									<div class="borde-svg">En Contacto</div>
 								</div>
 							</a>
-							<a href="/" class="ms-1">
+							<a href="index.html" class="ms-1">
 								<div class="acceso">
 									<div class="borde-svg btn-acceso">Portal del cliente</div>
 								</div>
 							</a>
-							<!-- <a href="/" class="nav-link me-0 nav-iconos">
+							<!-- <a href="index.html" class="nav-link me-0 nav-iconos">
 								<img src="./assets/images/iconos/id-spain.svg">
 							</a>
-							<a href="/" class="nav-link me-0 nav-iconos">
+							<a href="index.html" class="nav-link me-0 nav-iconos">
 								<img src="./assets/images/iconos/id-english.svg">
 							</a> -->
-							<a href="/" class="nav-link me-0 nav-iconos">
+							<a href="index.html" class="nav-link me-0 nav-iconos">
 								<img src="./assets/images/x-gris.png">
 							</a>
-							<a href="/" class="nav-link me-0 nav-iconos">
+							<a href="index.html" class="nav-link me-0 nav-iconos">
 								<img src="./assets/images/instagran-gris.png">
 							</a>
-							<a href="/" class="nav-link me-0 nav-iconos">
+							<a href="index.html" class="nav-link me-0 nav-iconos">
 								<img src="./assets/images/linkedin.svg">
 							</a>
-							<a href="/" class="nav-link me-0 nav-iconos">
+							<a href="index.html" class="nav-link me-0 nav-iconos">
 								<img src="./assets/images/f-gris.png">
 							</a>
-							<a href="/" class="nav-link me-0 nav-iconos">
+							<a href="index.html" class="nav-link me-0 nav-iconos">
 								<img src="./assets/images/youtube-gris.png">
 							</a>
 						</div>
@@ -95,7 +103,7 @@
 		<div class="sub-menu collapse" id="m-soluciones">
 			<div class="links">
 				<a class="dropdown-item" href="soluciones.html#sol-1">Impresión y escaneo</a>
-				<a class="dropdown-item" href="soluciones.html#sol-2">Gestión Documental y Digitalización</a>
+				<a class="dropdown-item" href="soluciones.html#sol-2">Digitalización y Gestión Documental</a>
 				<a class="dropdown-item" href="soluciones.html#sol-3">Desarrollo de software</a>
 				<a class="dropdown-item" href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a>
 				<a class="dropdown-item" href="soluciones.html#sol-5">Integración, Automatización y Nube</a>
@@ -139,7 +147,7 @@
 						</div>
 						<ul class="submenu">
 							<li class="op-submenu"><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
-							<li class="op-submenu"><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+							<li class="op-submenu"><a href="soluciones.html#sol-2">Digitalización y Gestión Documental</a></li>
 							<li class="op-submenu"><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
 							<li class="op-submenu"><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
 							<li class="op-submenu"><a href="soluciones.html#sol-5">Integración, Automatización y Nube</a></li>
@@ -177,7 +185,7 @@
 						<a href="contacto.html" class="m-responsive text-black">En Contacto</a>
 					</li>
 					<li class="nav-item-responsive pb-3">
-						<a href="/" class="m-responsive text-black">Portal del Cliente</a>
+						<a href="index.html" class="m-responsive text-black">Portal del Cliente</a>
 					</li>
 				</ul>
 		</div>
@@ -282,11 +290,6 @@
 							<div class="carrusel-partners">
 								<div class="partner">
 									<div class="mx-2">
-										<img class="img-fluid" src="./assets/images/partners/p-1.png">
-									</div>
-								</div>
-								<div class="partner">
-									<div class="mx-2">
 										<img class="img-fluid" src="./assets/images/partners/p-2.png">
 									</div>
 								</div>
@@ -303,11 +306,6 @@
 								<div class="partner">
 									<div class="mx-2">
 										<img class="img-fluid" src="./assets/images/partners/p-5.png">
-									</div>
-								</div>
-								<div class="partner">
-									<div class="mx-2">
-										<img class="img-fluid" src="./assets/images/partners/p-3.png">
 									</div>
 								</div>
 							</div>
@@ -339,7 +337,7 @@
 							<div class="">
 								<div class="solucion">
 									<img class="imagen-fondo w-100 imagen-dark" src="./assets/images/s2.webp">
-									<h3 class="cuadrado">Gestión Documental y Digitalización</h3>
+									<h3 class="cuadrado">Digitalización y Gestión Documental</h3>
 									<div class="flex-column">
 										<p>La propuesta de valor de nuestras soluciones digitalización y
 											gestión documental, con proyectos acordes a las necesidades
@@ -455,7 +453,7 @@
 					<div class="col-xl-8">
 						<div class="d-flex" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-400">
 							<img class="me-3" src="./assets/images/iconos/icon-casos.svg">
-							<h2> <span class="linea-naranja">Cono</span>cé cómo acompañamos<br class="d-none d-sm-blocl">a nuestros clientes para que logren sus metas</h2>
+							<h2> <span class="linea-naranja">Cono</span>cé cómo acompañamos a nuestros clientes para que logren sus metas</h2>
 						</div>
 						<div class="contenedor-info mt-4" data-aos="zoom-in" data-aos-delay="400" data-aos-offset="-400">
 							<p class="m-0 mb-4">Estamos aquí para ofrecer nuestra experiencia, las mejores prácticas y respaldar la transformación digital de las empresas.</p>
@@ -533,7 +531,7 @@
 								<img class="imagen-fondo" src="./assets/images/recurso.webp">
 								<h2 class="text-white">Recursos para <br><span class="text-orange">Clientes</span></h2>
 								<div class="btn-recurso">
-									<a class="btn-base-2 btn-producto" data-div="p1">Conoce más</a>
+									<a href="recursos.html" class="btn-base-2 btn-producto" data-div="p1">Conoce más</a>
 								</div>
 							</div>
 							<!-- <div class="recurso-1">
@@ -746,7 +744,7 @@
 						<div class="col-md-6 col-xl-4 mb-4 espacio">
 							<div class="mx-2">
 								<p class="fw-500 mb-4">Suscribite a nuestro Newsletter para enterearte de las novedades.</p>
-								<form class="subscripcion row mb-4" action="#" method="post">
+								<form class="subscripcion row mb-4" action="contacto.php" method="post">
 									<input class="mb-4" id="email" name="email"  type="email" placeholder="Tu E-mail" required/>
 									<div class="position-relative">
 										<img class="enviar-imagen" src="./assets/images/avion.png">
@@ -809,7 +807,7 @@
 									<div class="col">
 											<ul class="list-unstyled">
 												<li><a href="soluciones.html#sol-1">Impresión y escaneo</a></li>
-												<li><a href="soluciones.html#sol-2">Gestión Documental y Digitalización</a></li>
+												<li><a href="soluciones.html#sol-2">Digitalización y Gestión Documental</a></li>
 												<li><a href="soluciones.html#sol-4">Almacenamiento y Distribución de Información</a></li>
 												<li><a href="soluciones.html#sol-3">Desarrollo de software</a></li>
 											</ul>

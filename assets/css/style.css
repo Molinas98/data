@@ -843,6 +843,16 @@ footer .list-unstyled li{
     border-radius: 15px;
 }
 
+.section-reconocimientos .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.carrusel-reconocimientos2 .slick-arrow {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
 
 .section-nuestra-gente {
     background-color: #000;
@@ -1911,7 +1921,7 @@ footer .list-unstyled li{
     padding: 20px;
 }
 
-.galeria {
+.galeria, .reconocimientos {
     cursor: zoom-in;
 }
 
@@ -3842,6 +3852,45 @@ footer .list-unstyled li{
     background: #f9f9f9;
 }
 
+.mensaje-exito {
+    max-width: 600px;
+    width: 90%;
+    height: 300px;
+    background-color: var(--white);
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch !important;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mensaje-exito img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.contenedor-mensaje {
+    border: 4px solid #203748;
+    background-color: white;
+    height: 260px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
 @media (max-width: 1400px) {
     .explorar-info {
         margin-top: 340px;
@@ -4587,6 +4636,7 @@ footer .list-unstyled li{
     .section-reconocimientos h2 {
         font-size: 38px !important;
     }
+    
 
     .form-recursos {
         display: flex;

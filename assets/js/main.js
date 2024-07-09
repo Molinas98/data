@@ -411,6 +411,18 @@ $('.carrusel-servicios').slick({
     ]
   });
 
+  $('.carrusel-reconocimientos2').slick({
+    dots: false,
+    infinite: true,
+    arrows: true,
+    autoplay:true,
+    autoplaySpeed: 5000,
+    pauseOnHover: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '<img class="prev" src="./assets/images/iconos/prev.svg">',
+    nextArrow: '<img class="next" src="./assets/images/iconos/next.svg">',
+  });
 
   $('.galeria').magnificPopup({
     type: 'image',
@@ -427,6 +439,20 @@ $('.carrusel-servicios').slick({
     }
   });
 
+  $('.reconocimientos').magnificPopup({
+    type: 'image',
+    gallery:{
+        enabled:false
+    },
+    callbacks: {
+        open: function() {
+            // Cuando se abre el modal, ajusta el tamaño de la imagen
+            $('.mfp-content').css('height', '100%');
+            $('.mfp-content').css('width', '100vh');
+            $('.mfp-img').css('max-height', '100%');
+        }
+    }
+  });
 
   $('.popup-video').magnificPopup({
     type: 'iframe',
@@ -468,6 +494,21 @@ $('.carrusel-servicios').slick({
     }, 100);
   });
   
+  $('.subscripcion').on('submit', function(e) {
+    e.preventDefault();
+    $.ajax({
+        url: 'contacto.php',
+        method: 'POST',
+        data: $(this).serialize(),
+        success: function(response) {
+            if (response.trim() === 'success') {
+              $('.mensaje-exito').removeClass("collapse");
+            } else {
+                alert('Hubo un error al enviar el mensaje. Inténtelo de nuevo.');
+            }
+        }
+    });
+});
 
   if ($(window).width() >= 800) {
     $('.imagenDeFondo').each(function() {
@@ -849,4 +890,8 @@ function filter_orange (elemento) {
   setTimeout( function(){
     elemento.find("li img").attr("src", "./assets/images/iconos/arrow-orange.png");
   },100);
+}
+
+function cerrar_mensaje() {
+  $('.mensaje-exito').addClass("collapse");
 }
