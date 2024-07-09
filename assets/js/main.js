@@ -497,12 +497,13 @@ $('.carrusel-servicios').slick({
   $('.subscripcion').on('submit', function(e) {
     e.preventDefault();
     $.ajax({
-        url: 'contacto.php',
+        url: 'newletter.php',
         method: 'POST',
         data: $(this).serialize(),
         success: function(response) {
             if (response.trim() === 'success') {
               $('.mensaje-exito').removeClass("collapse");
+              alert("holaa")
             } else {
                 alert('Hubo un error al enviar el mensaje. Inténtelo de nuevo.');
             }

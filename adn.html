@@ -20,6 +20,14 @@
 </head>
 
 <body>
+	<div class="mensaje-exito collapse">
+		<div class="contenedor-mensaje">
+			<img src="./assets/images/iconos/exito.png">
+			<p class="text-center mb-2 fw-700">¡Éxito!</p>
+			<p class="text-center mx-4 mb-3">Bienvenido a nuestro Newsletter</p>
+			<a type="submit" class="btn-base-3" onclick="cerrar_mensaje()">Aceptar</a>
+		</div>
+	</div>
 	<div id="loader">
 		<div class="contenedor-fondoPixel position-relative">
 			<div class="fondoPixel"></div>
@@ -594,7 +602,7 @@
 						<div class="col-md-6 col-xl-4 mb-4 espacio">
 							<div class="mx-2">
 								<p class="fw-500 mb-4">Suscribite a nuestro Newsletter para enterearte de las novedades.</p>
-								<form class="subscripcion row mb-4" action="#" method="post">
+								<form class="subscripcion row mb-4" action="newletter" method="post">
 									<input class="mb-4" id="email" name="email"  type="email" placeholder="Tu E-mail" required/>
 									<div class="position-relative">
 										<img class="enviar-imagen" src="./assets/images/avion.png">
