@@ -6,7 +6,12 @@ require 'php-mailer/Exception.php';
 require 'php-mailer/PHPMailer.php';
 require 'php-mailer/SMTP.php';
 
+$nombre = $_POST['nombre'];
 $email = $_POST['email'];
+$telefono = $_POST['telefono'];
+$empresa = $_POST['empresa'];
+$asunto = $_POST['asunto'];
+$mensaje = $_POST['mensaje'];
 
 $mail = new PHPMailer(true);
 
@@ -28,9 +33,15 @@ try {
 
     //Content
     $mail->isHTML(true);
-    $mail->Subject = 'New Letter';
+    $mail->Subject = 'Mensaje';
     $mail->Body    = 
-    "<b>Email: </b>" . $email . "<br>";
+    "<b>Nombre y apellido: </b>" . $nombre . "<br>
+    <b>Email: </b>" . $email . "<br>
+    <b>Teléfono: </b>" . $telefono . "<br>
+    <b>Empresa: </b>" . $empresa . "<br>
+    <b>Asunto: </b>" . $asunto . "<br>
+    <b>Mensaje: </b>" . $mensaje . "<br>"
+    ;
 
     $mail->send();
     echo 'success';

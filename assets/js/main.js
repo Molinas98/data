@@ -503,13 +503,44 @@ $('.carrusel-servicios').slick({
         success: function(response) {
             if (response.trim() === 'success') {
               $('.mensaje-exito').removeClass("collapse");
-              alert("holaa")
             } else {
                 alert('Hubo un error al enviar el mensaje. Inténtelo de nuevo.');
             }
         }
     });
-});
+  });
+
+  $('.form-contacto').on('submit', function(e) {
+    e.preventDefault();
+    $.ajax({
+        url: 'contacto.php',
+        method: 'POST',
+        data: $(this).serialize(),
+        success: function(response) {
+            if (response.trim() === 'success') {
+              $('.mensaje-contacto').removeClass("collapse");
+            } else {
+                alert('Hubo un error al enviar el mensaje. Inténtelo de nuevo.');
+            }
+        }
+    });
+  });
+
+  $('.form-postulacion').on('submit', function(e) {
+    e.preventDefault();
+    $.ajax({
+        url: 'postulacion.php',
+        method: 'POST',
+        data: $(this).serialize(),
+        success: function(response) {
+            if (response.trim() === 'success') {
+              $('.mensaje-postulacion').removeClass("collapse");
+            } else {
+                alert('Hubo un error al enviar el mensaje. Inténtelo de nuevo.');
+            }
+        }
+    });
+  });
 
   if ($(window).width() >= 800) {
     $('.imagenDeFondo').each(function() {
@@ -895,4 +926,10 @@ function filter_orange (elemento) {
 
 function cerrar_mensaje() {
   $('.mensaje-exito').addClass("collapse");
+}
+function cerrar_mensaje2() {
+  $('.mensaje-contacto').addClass("collapse");
+}
+function cerrar_mensaje3() {
+  $('.mensaje-postulacion').addClass("collapse");
 }

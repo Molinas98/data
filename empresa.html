@@ -20,6 +20,22 @@
 </head>
 
 <body>
+	<div class="mensaje-postulacion collapse">
+		<div class="contenedor-mensaje">
+			<img src="./assets/images/iconos/exito.png">
+			<p class="text-center mb-2 fw-700">¡Mensaje enviado!</p>
+			<p class="text-center mx-4 mb-3">Nuestro equipo se pondrá en contacto contigo.</p>
+			<a type="submit" class="btn-base-3" onclick="cerrar_mensaje3()">Aceptar</a>
+		</div>
+	</div>
+	<div class="mensaje-exito collapse">
+		<div class="contenedor-mensaje">
+			<img src="./assets/images/iconos/exito.png">
+			<p class="text-center mb-2 fw-700">¡Éxito!</p>
+			<p class="text-center mx-4 mb-3">Bienvenido a nuestro Newsletter</p>
+			<a type="submit" class="btn-base-3" onclick="cerrar_mensaje()">Aceptar</a>
+		</div>
+	</div>
 	<div id="loader">
 		<div class="contenedor-fondoPixel position-relative">
 			<div class="fondoPixel"></div>
@@ -449,7 +465,7 @@
 						<p class="mb-4">Nuestra forma de organizarnos, nos permite trabajar en un ambiente colaborativo
 							y participativo, sé parte de un gran equipo. Puedes subir tu Hoja de Vida/CV aquí: Al pie de los Campos del formulario. 
 							O enviar tu Hoja de Vida/CV, indicando el nombre del puesto al que te postulás, al correo electrónico: talentohumano@data.com.py</p>
-						<form class="form-postulacion" action="#" method="post">
+						<form class="form-postulacion" action="postulacion.php" method="post">
 							<fieldset class="mb-3">
 								<label for="nombre">Nombre y Apellido <span class="text-danger">*</span></label>
 								<input type="text" class="form-control" name="nombre" id="nombre" required>
@@ -467,8 +483,8 @@
 								<input type="text" class="form-control" name="cargo" id="cargo" required>
 							</fieldset>
 							<fieldset class="mb-3">
-								<label for="comentario">Comentarios</label>
-								<textarea  class="form-control" placeholder="Ejemplo 1: Utilizar X pack de envolvente" id="comentario"></textarea>
+								<label for="comentarios">Comentarios</label>
+								<textarea  class="form-control" placeholder="Ejemplo 1: Utilizar X pack de envolvente" name="comentarios" id="comentarios"></textarea>
 							</fieldset>
 							<label class="d-block mb-2">Adjuntá tu CV</label>
 							<fieldset class="adjuntar-cv">

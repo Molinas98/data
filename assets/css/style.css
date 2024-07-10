@@ -3852,7 +3852,8 @@ footer .list-unstyled li{
     background: #f9f9f9;
 }
 
-.mensaje-exito {
+.mensaje-exito, .mensaje-contacto,
+.mensaje-postulacion {
     max-width: 600px;
     width: 90%;
     height: 300px;
@@ -3870,7 +3871,8 @@ footer .list-unstyled li{
     transform: translate(-50%,-50%);
 }
 
-.mensaje-exito img {
+.mensaje-exito img , .mensaje-contacto img,
+.mensaje-postulacion img {
     margin-top: 15px;
     margin-bottom: 10px;
     width: 60px;
